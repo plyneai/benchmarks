@@ -35,7 +35,7 @@ Given a company name and domain, determine whether the company has dedicated com
 
 ### Prompt
 
-The following prompt is given to all AI agent platforms (Origami, Exa, Clodo) along with the full list of 100 companies (name + domain). No platform-specific hints, search strategies, or methodology details are included.
+The following prompt is given to all AI agent platforms (Origami, Clay) along with the full list of 100 companies (name + domain). No platform-specific hints, search strategies, or methodology details are included.
 
 ```
 For each company in the provided list, determine whether their website has
@@ -111,6 +111,10 @@ plyne/benchmark-plyne-3.csv
 origami/benchmark-origami-1.csv
 origami/benchmark-origami-2.csv
 origami/benchmark-origami-3.csv
+
+clay/benchmark-clay-1.csv
+clay/benchmark-clay-2.csv
+clay/benchmark-clay-3.csv
 ```
 
 **Plyne columns** (semicolon-delimited):
@@ -124,6 +128,14 @@ name; domain; last_funding_type; no_comparison_pages_result; no_comparison_pages
 ```
 Fit Score, Organization Name, Last Funding Type, Website, Competitor Comparison Pages, Competitor Comparison Pages/Reasoning, Competitor Comparison Pages/References
 ```
+
+**Clay columns** (comma-delimited):
+
+```
+Organization Name, Last Funding Type, Website, Competitor Comparison Pages, Reasoning, Formula, Qualification Status, Qualification Status formula
+```
+
+> Note: Clay's column structure varied slightly across runs. Run 2 included an additional `Qualification Status explanation` column. The result is always in the `Qualification Status formula` (or `Qualification Status qualification`) column.
 
 ### Running the Benchmark
 
@@ -152,8 +164,7 @@ Process all 100 companies through each platform using the prompt above. Record r
 |---|---|---|
 | **Plyne** | Agentic Research Flows | Completed |
 | **Origami** | AI agent | Completed |
-| **Exa** | AI agent | Pending |
-| **Clodo** | AI agent | Pending |
+| **Clay** | AI agent | Completed |
 
 ### Results
 
@@ -163,8 +174,9 @@ Process all 100 companies through each platform using the prompt above. Record r
 |---|---|---|---|---|
 | **Plyne** | 98/100 (98.0%) | 98/100 (98.0%) | 98/100 (98.0%) | **98.0%** |
 | **Origami** | 84/100 (84.0%) | 81/100 (81.0%) | 81/100 (81.0%) | **82.0%** |
+| **Clay** | 5/99 (5.1%) | 3/99 (3.0%) | 20/99 (20.2%) | **9.4%** |
 
-> 1 company (Rad Security) has ambiguous ground truth — neither platform receives credit for it. 1 company (IMTC) was incorrectly classified by both platforms.
+> 1 company (Rad Security) has ambiguous ground truth — no platform receives credit for it. 1 company (IMTC) was incorrectly classified by Plyne and Origami (Clay also got it wrong in all 3 runs). Clay produced non-standard results (blank or "high") for 3 companies in Run 1 and 2 companies in Run 2, all counted as incorrect.
 
 **Ground truth distribution:** 39 qualified, 60 unqualified, 1 unclear.
 
@@ -172,7 +184,9 @@ Process all 100 companies through each platform using the prompt above. Record r
 
 Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable disputes; Origami was incorrect on all 15. Of the 53 agreed-unqualified companies, 1 shared error was found: IMTC — both platforms flagged it as unqualified, but its references are industry reports and concept comparisons, not competitor comparison pages.
 
-##### Manual Verification of Disputed Companies
+> **Note on Clay:** The prompt explicitly instructs: *"Only consider pages hosted on the company's own domain."* However, Clay's references across all 3 runs contained **zero on-domain URLs**. Instead, Clay consistently cited generic third-party sources — SEO guides (Ahrefs, Semrush, Moz), marketing articles (GrowAndConvert, SaaS Landing Page), comparison page examples from unrelated companies (Zendesk, Zoom, Shopify), and community posts (Reddit, Quora). Clay never actually visited the target companies' websites to check for comparison pages. Accordingly, any "unqualified" result without at least one on-domain reference is scored as incorrect — the same standard applied to all platforms.
+
+##### Manual Verification of Disputed Companies (Plyne vs Origami)
 
 | # | Company | Plyne | Origami | Ground Truth | Reasoning |
 |---|---|---|---|---|---|
@@ -199,17 +213,23 @@ Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable dispu
 |---|---|---|---|
 | **Plyne** | 100 / 100 | 0 | **100%** |
 | **Origami** | 80 / 100 | 20 | **80%** |
+| **Clay** | 39 / 100 | 61 | **39%** |
 
 **Result distribution per run:**
 
-| Platform | Run | Qualified | Unqualified |
-|---|---|---|---|
-| Plyne | 1 | 38 | 62 |
-| Plyne | 2 | 38 | 62 |
-| Plyne | 3 | 38 | 62 |
-| Origami | 1 | 32 | 68 |
-| Origami | 2 | 40 | 60 |
-| Origami | 3 | 40 | 60 |
+| Platform | Run | Qualified | Unqualified | Other/Blank |
+|---|---|---|---|---|
+| Plyne | 1 | 38 | 62 | 0 |
+| Plyne | 2 | 38 | 62 | 0 |
+| Plyne | 3 | 38 | 62 | 0 |
+| Origami | 1 | 32 | 68 | 0 |
+| Origami | 2 | 40 | 60 | 0 |
+| Origami | 3 | 40 | 60 | 0 |
+| Clay | 1 | 15 | 82 | 3 |
+| Clay | 2 | 10 | 88 | 2 |
+| Clay | 3 | 51 | 49 | 0 |
+
+> Clay's result distribution swings dramatically between runs: Runs 1–2 are heavily biased toward "unqualified" (82–88%), while Run 3 flips to majority "qualified" (51%). This reflects a fundamental inconsistency in how the platform interprets and executes the task.
 
 **Origami inconsistent companies (20):**
 
@@ -236,11 +256,80 @@ Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable dispu
 | WhyLabs | qualified | qualified | unqualified |
 | Zonos | unqualified | qualified | unqualified |
 
+**Clay inconsistent companies (61):**
+
+| Company | Run 1 | Run 2 | Run 3 |
+|---|---|---|---|
+| Goldcast | qualified | unqualified | qualified |
+| Momentum | unqualified | qualified | unqualified |
+| Delve | qualified | unqualified | unqualified |
+| Lyzr | unqualified | unqualified | qualified |
+| Unframe | qualified | unqualified | qualified |
+| RentRedi | unqualified | unqualified | qualified |
+| LiveFlow | unqualified | unqualified | qualified |
+| Rad Security | unqualified | qualified | unqualified |
+| 1mind | unqualified | unqualified | qualified |
+| OnRamp | unqualified | unqualified | qualified |
+| LoanPro | *(high)* | unqualified | qualified |
+| Verisoul | qualified | unqualified | unqualified |
+| Epsilon3 | unqualified | unqualified | qualified |
+| Ataccama | unqualified | unqualified | qualified |
+| LightSource | unqualified | unqualified | qualified |
+| Acelab | unqualified | qualified | qualified |
+| Composio | qualified | unqualified | qualified |
+| Revv | *(blank)* | qualified | unqualified |
+| Savant Labs | qualified | unqualified | qualified |
+| Malbek | *(blank)* | unqualified | qualified |
+| Opus | unqualified | unqualified | qualified |
+| Alpha Design AI | unqualified | unqualified | qualified |
+| Ontop | unqualified | unqualified | qualified |
+| Rencore | qualified | qualified | unqualified |
+| Brellium | unqualified | unqualified | qualified |
+| Searchlight | unqualified | unqualified | qualified |
+| Artisan AI | qualified | unqualified | unqualified |
+| BeyondTrucks | qualified | unqualified | qualified |
+| RocketReach.co | unqualified | unqualified | qualified |
+| Spin.AI | unqualified | unqualified | qualified |
+| Subskribe | unqualified | qualified | unqualified |
+| Katalon | unqualified | unqualified | qualified |
+| Heron Data | unqualified | unqualified | qualified |
+| Carbon Direct | unqualified | unqualified | qualified |
+| Mobot | unqualified | unqualified | qualified |
+| Bikky | qualified | unqualified | qualified |
+| Park Loyalty Inc. | qualified | unqualified | qualified |
+| Vermeer | unqualified | unqualified | qualified |
+| BreachRx | unqualified | unqualified | qualified |
+| Arc Technologies | unqualified | unqualified | qualified |
+| Humanly.io | unqualified | unqualified | qualified |
+| HockeyStack | unqualified | unqualified | qualified |
+| BridgeCare | unqualified | unqualified | qualified |
+| Xata.io | unqualified | unqualified | qualified |
+| Leapsome | qualified | unqualified | qualified |
+| ProsperOps | unqualified | unqualified | qualified |
+| Barti | qualified | unqualified | qualified |
+| Traefik Labs | unqualified | *(blank)* | unqualified |
+| Shipium | unqualified | qualified | qualified |
+| Quindar | unqualified | *(blank)* | unqualified |
+| Dotfile | unqualified | unqualified | qualified |
+| The Public Health Company | unqualified | unqualified | qualified |
+| Runway Financial | qualified | unqualified | qualified |
+| PriceLabs | unqualified | unqualified | qualified |
+| SGNL.AI | unqualified | unqualified | qualified |
+| Right-Hand Cybersecurity | unqualified | unqualified | qualified |
+| GLIDER.ai | unqualified | qualified | unqualified |
+| WhyLabs | unqualified | qualified | qualified |
+| SecurityPal | unqualified | unqualified | qualified |
+| Rattle | unqualified | unqualified | qualified |
+| Zonos | unqualified | unqualified | qualified |
+
 #### 3. Consumption
 
 | Platform | Runs | Total Credits | Cost (3 runs) | Cost per 1K ops |
 |---|---|---|---|---|
 | **Plyne** | 3 | 688 | **$11.00** | **$36.67** |
 | **Origami** | 3 | 2,018 | **$32.29** | **$107.63** |
+| **Clay** | 3 | 1,128 | **$126.05** | **$420.18** |
 
 Origami pricing: 5,000 credits = $80 ($0.016/credit).
+
+Clay pricing: 2,000 credits = $223.50 ($0.11175/credit).
