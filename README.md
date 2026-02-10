@@ -117,10 +117,10 @@ clay/benchmark-clay-2.csv
 clay/benchmark-clay-3.csv
 ```
 
-**Plyne columns** (semicolon-delimited):
+**Plyne columns** (comma-delimited):
 
 ```
-name; domain; last_funding_type; no_comparison_pages_result; no_comparison_pages_reasoning; no_comparison_pages_references
+name, domain, last_funding_type, no_comparison_pages_result, no_comparison_pages_reasoning, no_comparison_pages_references
 ```
 
 **Origami columns** (comma-delimited):
