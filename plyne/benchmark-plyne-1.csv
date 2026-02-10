@@ -1,5 +1,5 @@
-name;domain;last_funding_type;no_comparison_pages_result;no_comparison_pages_reasoning;no_comparison_pages_references
-Goldcast;goldcast.io;Series A;unqualified;"Found 3 comparison page(s) on goldcast.io.
+name,domain,last_funding_type,no_comparison_pages_result,no_comparison_pages_reasoning,no_comparison_pages_references
+Goldcast,goldcast.io,Series A,unqualified,"Found 3 comparison page(s) on goldcast.io.
 
 [match] https://www.goldcast.io/compare/goldcast-vs-zoom
 Compares against: Zoom, Zoom Webinars
@@ -20,8 +20,8 @@ https://www.goldcast.io/compare
 https://www.goldcast.io/blog-post/best-podcast-recording-software
 https://www.goldcast.io
 https://www.goldcast.io/blog-post/6-webinar-tools-worth
-https://www.goldcast.io/blog-post/ai-tools-for-marketing";https://www.goldcast.io/compare/bigmarker-vs-goto-webinar,https://www.goldcast.io/compare/goldcast-vs-zoom,https://www.goldcast.io/compare/bigmarker-vs-sequel
-Momentum;momentum.io;Series A;unqualified;"Found 3 comparison page(s) on momentum.io.
+https://www.goldcast.io/blog-post/ai-tools-for-marketing","https://www.goldcast.io/compare/bigmarker-vs-goto-webinar,https://www.goldcast.io/compare/goldcast-vs-zoom,https://www.goldcast.io/compare/bigmarker-vs-sequel"
+Momentum,momentum.io,Series A,unqualified,"Found 3 comparison page(s) on momentum.io.
 
 [match] https://www.momentum.io/blog/momentum-vs-spiky-ai
 Compares against: Spiky.ai
@@ -42,8 +42,8 @@ https://www.momentum.io/blog/best-gong-alternatives-conversation-intelligence-20
 https://www.momentum.io/blog/gong-io-alternatives-conversation-intelligence-revenue-orchestration
 https://www.momentum.io/blog/chorus-ai-alternatives
 https://www.momentum.io/blog/the-best-ai-based-sales-training-tools-for-2025-a-buyers-guide-for-gtm-and-revops-teams
-https://www.momentum.io/blog/the-top-sales-enablement-platforms-in-2025-strategic-buyers-guide-for-gtm-teams";https://www.momentum.io/blog/momentum-vs-spiky-ai,https://www.momentum.io/blog/gong-vs-momentum-ai-agent,https://www.momentum.io/blog/momentum-vs-zapier-revenue-automation-platform
-Model ML;modelml.com;Series A;qualified;"Analyzed 9 page(s) on modelml.com. No comparison pages found.
+https://www.momentum.io/blog/the-top-sales-enablement-platforms-in-2025-strategic-buyers-guide-for-gtm-teams","https://www.momentum.io/blog/momentum-vs-spiky-ai,https://www.momentum.io/blog/gong-vs-momentum-ai-agent,https://www.momentum.io/blog/momentum-vs-zapier-revenue-automation-platform"
+Model ML,modelml.com,Series A,qualified,"Analyzed 9 page(s) on modelml.com. No comparison pages found.
 
 [no-match] https://www.modelml.com/articles/how-14peaks-transformed-their-venture-capital-workflows-with-modelml
 The page discusses how 14 Peaks utilizes ModelML to improve their workflows but does not explicitly compare ModelML against any competitors.
@@ -73,8 +73,8 @@ The page is a job listing for a GTM Lead position at Model ML and does not conta
 The content does not compare 'Model ML' against any competitors and focuses on the company's background and team.
 
 [skipped] 1 candidate(s) not checked
-https://www.modelml.com";
-Delve;delve.co;Series A;qualified;"Analyzed 9 page(s) on delve.co. No comparison pages found.
+https://www.modelml.com",
+Delve,delve.co,Series A,qualified,"Analyzed 9 page(s) on delve.co. No comparison pages found.
 
 [no-match] https://delve.co/blog/mcp-future-of-ai-data-strategy
 The page does not explicitly compare 'Delve' against any competitors; it primarily discusses out-of-home advertising strategies and does not serve as a dedicated comparison page.
@@ -104,8 +104,8 @@ The page discusses Wispr's partnership with Delve but does not explicitly compar
 The page does not contain any explicit comparisons of 'Delve' against other competitors. It primarily discusses the company and its hiring opportunities.
 
 [skipped] 1 candidate(s) not checked
-https://delve.co";
-Lyzr;lyzr.ai;Series A;unqualified;"Found 3 comparison page(s) on lyzr.ai.
+https://delve.co",
+Lyzr,lyzr.ai,Series A,unqualified,"Found 3 comparison page(s) on lyzr.ai.
 
 [match] https://www.lyzr.ai/compare/lyzr-agent-studio-vs-google-vertex-ai
 Compares against: Google Vertex AI
@@ -126,8 +126,8 @@ https://www.lyzr.ai/blog/agentforce-competitor
 http://lyzr.ai
 https://www.lyzr.ai/blog/11x-ai-alternative
 https://www.lyzr.ai/blog/crew-ai-alternative
-https://www.lyzr.ai/blueprints/legal/document-comparison-agent";https://www.lyzr.ai/compare/lyzr-agent-studio-vs-google-vertex-ai,https://www.lyzr.ai/compare/lyzr-agent-studio-vs-crewai,https://www.lyzr.ai/comparison
-Conductor;conductor.com;Series A;unqualified;"Found 2 comparison page(s) on conductor.com.
+https://www.lyzr.ai/blueprints/legal/document-comparison-agent","https://www.lyzr.ai/compare/lyzr-agent-studio-vs-google-vertex-ai,https://www.lyzr.ai/compare/lyzr-agent-studio-vs-crewai,https://www.lyzr.ai/comparison"
+Conductor,conductor.com,Series A,unqualified,"Found 2 comparison page(s) on conductor.com.
 
 [error] http://app.conductor.com/u/account-settings/comparison
 Validation error: Scraping or analysis failed
@@ -147,8 +147,8 @@ https://support.conductor.com/en_US/competitive-insights-in-conductor/identify-a
 https://support.conductor.com/en_US/conductor-intelligence/rank-comparisons
 http://conductor.com
 https://www.conductor.com/academy/identify-competitors
-https://www.conductor.com/platform/features/competitor-research-tracking";https://www.conductor.com/alternative-to/ai-visibility-tools,https://www.conductor.com/alternative-to/botify
-Unframe;unframe.ai;Series A;unqualified;"Found 1 comparison page(s) on unframe.ai.
+https://www.conductor.com/platform/features/competitor-research-tracking","https://www.conductor.com/alternative-to/ai-visibility-tools,https://www.conductor.com/alternative-to/botify"
+Unframe,unframe.ai,Series A,unqualified,"Found 1 comparison page(s) on unframe.ai.
 
 [no-match] https://www.unframe.ai/build-vs-unframe
 The page discusses the advantages of Unframe over in-house builds but does not explicitly compare Unframe against other named competitors.
@@ -167,8 +167,8 @@ https://www.unframe.ai
 https://www.unframe.ai/blog/leading-ai-use-cases
 https://www.unframe.ai/blog/mit-reports-state-of-ai-in-business-2025
 https://www.unframe.ai/blog/conversational-agents-for-enterprise-knowledge-access
-https://www.unframe.ai/build-vs-buy-ai";https://www.unframe.ai/blog/top-10-intelligent-document-processing-software-choosing-the-right-idp-solution
-Jump;jump.ai;Series A;qualified;"Analyzed 9 page(s) on jump.ai. No comparison pages found.
+https://www.unframe.ai/build-vs-buy-ai",https://www.unframe.ai/blog/top-10-intelligent-document-processing-software-choosing-the-right-idp-solution
+Jump,jump.ai,Series A,qualified,"Analyzed 9 page(s) on jump.ai. No comparison pages found.
 
 [no-match] https://jump.ai/blog/best-books-for-financial-advisors
 The page discusses various books for financial advisors and does not explicitly compare 'Jump' against any competitors.
@@ -198,8 +198,8 @@ The page discusses strategies for attracting high-net-worth clients and mentions
 The page discusses AI in wealth management and mentions Jump AI, but it does not explicitly compare Jump against other competitors.
 
 [skipped] 1 candidate(s) not checked
-https://jump.ai";
-RentRedi;rentredi.com;Series A;unqualified;"Found 3 comparison page(s) on rentredi.com.
+https://jump.ai",
+RentRedi,rentredi.com,Series A,unqualified,"Found 3 comparison page(s) on rentredi.com.
 
 [match] https://rentredi.com/blog/rentredi-vs-hemlane-property-management-software
 Compares against: Hemlane
@@ -220,8 +220,8 @@ https://rentredi.com/blog/rentredi-vs-tenantcloud-comparison
 https://rentredi.com/blog/rentredi-vs-landlord-studio-review
 https://rentredi.com/blog/top-rent-payment-apps
 http://rentredi.com
-https://rentredi.com/blog/category/how-to-start-smart-managing-rentals/competitor-series";https://rentredi.com/blog/rentredi-vs-hemlane-property-management-software,https://rentredi.com/blog/rentredi-vs-rentspree-property-management-software,https://rentredi.com/blog/rentredi-vs-appfolio-comparing-property-management-platforms
-Reco;reco.ai;Series A;unqualified;"Found 2 comparison page(s) on reco.ai.
+https://rentredi.com/blog/category/how-to-start-smart-managing-rentals/competitor-series","https://rentredi.com/blog/rentredi-vs-hemlane-property-management-software,https://rentredi.com/blog/rentredi-vs-rentspree-property-management-software,https://rentredi.com/blog/rentredi-vs-appfolio-comparing-property-management-platforms"
+Reco,reco.ai,Series A,unqualified,"Found 2 comparison page(s) on reco.ai.
 
 [match] https://www.reco.ai/compare/obsidian-security-vs-appomni
 Compares against: AppOmni, Obsidian Security, Grip Security, CrowdStrike Shield
@@ -241,8 +241,8 @@ https://www.reco.ai/compare
 https://www.reco.ai/compare/ai-security-tools-for-enterprises
 https://www.reco.ai/compare/saas-security-tools
 https://www.reco.ai/compare/ai-governance-tools
-http://reco.ai";https://www.reco.ai/compare/obsidian-security-vs-appomni,https://www.reco.ai/compare/crowdstrike-shield-vs-obsidian-security
-LiveFlow;liveflow.com;Series A;unqualified;"Found 3 comparison page(s) on liveflow.com.
+http://reco.ai","https://www.reco.ai/compare/obsidian-security-vs-appomni,https://www.reco.ai/compare/crowdstrike-shield-vs-obsidian-security"
+LiveFlow,liveflow.com,Series A,unqualified,"Found 3 comparison page(s) on liveflow.com.
 
 [match] https://liveflow.com/comparison/liveflow-vs-jirav
 Compares against: Jirav
@@ -263,8 +263,8 @@ https://liveflow.com/knowledge-center/liveflow-analytics-vs-competitors-2025
 https://liveflow.com/comparison/liveflow-vs.-runway
 https://liveflow.com/blog/top-financial-software-alternatives-for-modern-finance-teams
 http://liveflow.com
-https://liveflow.com/knowledge-center/7-powerful-multi-currency-financial-consolidation-tools-compared";https://liveflow.com/comparison/liveflow-vs-jirav,https://liveflow.com/blog/liveflow-vs-g-accon-whats-best-for-your-business,https://liveflow.com/knowledge-center/liveflow-vs-competitors-7-questions-finance-teams-need-answered
-Momentic;momentic.ai;Series A;unqualified;"Found 3 comparison page(s) on momentic.ai.
+https://liveflow.com/knowledge-center/7-powerful-multi-currency-financial-consolidation-tools-compared","https://liveflow.com/comparison/liveflow-vs-jirav,https://liveflow.com/blog/liveflow-vs-g-accon-whats-best-for-your-business,https://liveflow.com/knowledge-center/liveflow-vs-competitors-7-questions-finance-teams-need-answered"
+Momentic,momentic.ai,Series A,unqualified,"Found 3 comparison page(s) on momentic.ai.
 
 [match] https://momentic.ai/blog/best-cross-platform-testing-tools
 Compares against: SauceLabs, TestingBot, Mabl, TestGrid
@@ -285,8 +285,8 @@ https://momentic.ai/blog/open-source-test-automation-tools
 https://momentic.ai/blog/mabl-alternatives
 https://momentic.ai/blog/browserstack-alternatives
 http://momentic.ai
-https://momentic.ai/blog/automated-functional-testing";https://momentic.ai/blog/best-cross-platform-testing-tools,https://momentic.ai/blog/best-regression-testing-tools,https://momentic.ai/blog/best-software-testing-tools
-Rad Security;radsecurity.ai;Series A;unqualified;"Found 1 comparison page(s) on radsecurity.ai.
+https://momentic.ai/blog/automated-functional-testing","https://momentic.ai/blog/best-cross-platform-testing-tools,https://momentic.ai/blog/best-regression-testing-tools,https://momentic.ai/blog/best-software-testing-tools"
+Rad Security,radsecurity.ai,Series A,unqualified,"Found 1 comparison page(s) on radsecurity.ai.
 
 [no-match] https://www.radsecurity.ai/resource-center
 The page does not contain any explicit comparisons of Rad Security against other competitors. It primarily discusses Rad Security's offerings and insights without comparing them to other products or companies.
@@ -311,8 +311,8 @@ The page discusses the history of signature-based threat detection and mentions 
 http://radsecurity.ai
 https://www.radsecurity.ai/blog/iam-kubernetes
 https://www.radsecurity.ai/blog/xz-backdoor
-https://www.radsecurity.ai/blog/introducing-rad-security";https://www.radsecurity.ai/resources/comparing-rad-security-to-opa
-1mind;1mind.com;Series A;qualified;"Analyzed 4 page(s) on 1mind.com. No comparison pages found.
+https://www.radsecurity.ai/blog/introducing-rad-security",https://www.radsecurity.ai/resources/comparing-rad-security-to-opa
+1mind,1mind.com,Series A,qualified,"Analyzed 4 page(s) on 1mind.com. No comparison pages found.
 
 [error] https://www.1mind.com/resources/vx2mgw2v87ubk5wtnrcn
 Validation error: Scraping or analysis failed
@@ -327,8 +327,8 @@ The page is focused on job listings and company information for 1mind, with no e
 The page is a Terms of Use document and does not contain any explicit comparisons of 1mind against other competitors.
 
 [skipped] 1 candidate(s) not checked
-http://1mind.com";
-OnRamp;OnRamp.us;Series A;unqualified;"Found 2 comparison page(s) on onramp.us.
+http://1mind.com",
+OnRamp,OnRamp.us,Series A,unqualified,"Found 2 comparison page(s) on onramp.us.
 
 [no-match] https://onramp.us/blog/best-client-onboarding-software
 The page lists 'OnRamp' alongside other onboarding solutions, including 'ChurnZero', and discusses their features, indicating a comparison of capabilities.
@@ -354,8 +354,8 @@ The page explicitly compares OnRamp to GuideCX, detailing differences in product
 http://onramp.us
 https://onramp.us/blog/customer-onboarding-tool
 https://onramp.us/customers/realmarketing
-https://onramp.us/customers/taylor";https://onramp.us/rocketlane-alternative,https://onramp.us/guidecx-alternative
-TENEX.AI;tenex.ai;Series A;qualified;"Analyzed 2 page(s) on tenex.ai. No comparison pages found.
+https://onramp.us/customers/taylor","https://onramp.us/rocketlane-alternative,https://onramp.us/guidecx-alternative"
+TENEX.AI,tenex.ai,Series A,qualified,"Analyzed 2 page(s) on tenex.ai. No comparison pages found.
 
 [no-match] https://tenex.ai/tenexai-and-witnessai-partner
 The page discusses a partnership between TENEX.AI and WitnessAI but does not explicitly compare TENEX.AI against any competitors.
@@ -365,8 +365,8 @@ The page promotes workshops hosted by Google Cloud Security and does not explici
 
 [skipped] 2 candidate(s) not checked
 https://tenex.ai
-https://tenex.ai/wp-content/uploads/2025/05/202504_AI_SOC.pdf";
-LoanPro;loanpro.io;Series A;unqualified;"Found 1 comparison page(s) on loanpro.io.
+https://tenex.ai/wp-content/uploads/2025/05/202504_AI_SOC.pdf",
+LoanPro,loanpro.io,Series A,unqualified,"Found 1 comparison page(s) on loanpro.io.
 
 [match] https://www.loanpro.io/blog/why-lenders-are-choosing-loanpro-as-a-fiserv-alternative
 Compares against: Fiserv
@@ -385,8 +385,8 @@ https://www.loanpro.io/blog/common-mistakes-when-selecting-loan-management-softw
 https://www.loanpro.io/platform/servicing-suite
 https://www.loanpro.io/blog
 https://www.loanpro.io
-https://www.loanpro.io/blog/b2b-lender-case-study-flexibility-and-scalability";https://www.loanpro.io/blog/why-lenders-are-choosing-loanpro-as-a-fiserv-alternative
-Verisoul;verisoul.ai;Series A;unqualified;"Found 2 comparison page(s) on verisoul.ai.
+https://www.loanpro.io/blog/b2b-lender-case-study-flexibility-and-scalability",https://www.loanpro.io/blog/why-lenders-are-choosing-loanpro-as-a-fiserv-alternative
+Verisoul,verisoul.ai,Series A,unqualified,"Found 2 comparison page(s) on verisoul.ai.
 
 [match] https://www.verisoul.ai/compare/fingerprint
 Compares against: Fingerprint
@@ -406,8 +406,8 @@ https://www.verisoul.ai/compare/shield
 https://www.verisoul.ai/verisoul-verification-badge
 https://www.verisoul.ai
 https://www.verisoul.ai/articles/the-best-email-verification-apis-in-2024
-https://www.verisoul.ai/articles/outsmarting-the-spoofers-advanced-geolocation-security-for-gaming";https://www.verisoul.ai/compare/fingerprint,https://www.verisoul.ai/compare/seon
-BriefCatch;briefcatch.com;Series A;qualified;"Analyzed 9 page(s) on briefcatch.com. No comparison pages found.
+https://www.verisoul.ai/articles/outsmarting-the-spoofers-advanced-geolocation-security-for-gaming","https://www.verisoul.ai/compare/fingerprint,https://www.verisoul.ai/compare/seon"
+BriefCatch,briefcatch.com,Series A,qualified,"Analyzed 9 page(s) on briefcatch.com. No comparison pages found.
 
 [no-match] https://support.briefcatch.com/home/about/briefcatch-next
 The page discusses the features and functionalities of BriefCatch Next but does not compare it against any specific competitors.
@@ -437,8 +437,8 @@ The content does not compare 'BriefCatch' against any competitors; it discusses 
 The page discusses AI adoption in law firms and provides guidance on choosing AI tools, but it does not explicitly compare BriefCatch against any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.briefcatch.com";
-Epsilon3;epsilon3.io;Series A;unqualified;"Found 1 comparison page(s) on epsilon3.io.
+https://www.briefcatch.com",
+Epsilon3,epsilon3.io,Series A,unqualified,"Found 1 comparison page(s) on epsilon3.io.
 
 [no-match] https://www.epsilon3.io/behind-the-console/open-source-vs-commercial-telemetry-and-command-software
 The page discusses the benefits and drawbacks of open source and COTS software but does not explicitly compare Epsilon3 against specific competitors.
@@ -457,8 +457,8 @@ https://www.epsilon3.io/feature-comparison
 https://www.epsilon3.io/discover-insights-trends-operations
 https://www.epsilon3.io/behind-the-console/changelog-65-compare-versions-batch-builds-capa
 https://www.epsilon3.io/behind-the-console/mes-software
-https://www.epsilon3.io/aerospace-industry";https://www.epsilon3.io/behind-the-console/how-epsilon3-is-different-than-other-software-packages
-IMTC;imtc.com;Series A;unqualified;"Found 1 comparison page(s) on imtc.com.
+https://www.epsilon3.io/aerospace-industry",https://www.epsilon3.io/behind-the-console/how-epsilon3-is-different-than-other-software-packages
+IMTC,imtc.com,Series A,unqualified,"Found 1 comparison page(s) on imtc.com.
 
 [no-match] https://imtc.com/insights/firms-select-imtc-optimize-fixed-income-accounts
 The page discusses the adoption of IMTC's system by various firms but does not explicitly compare IMTC to any competitors.
@@ -483,8 +483,8 @@ The page discusses the retail sector and corporate bonds but does not explicitly
 https://imtc.com
 https://imtc.com/insights/fils-2025-key-takeaways
 https://imtc.com/insights/lmcg-case-study-2023
-https://imtc.com/insights/portfolio-trading-for-portfolio-managers";https://imtc.com/insights/cutter-associates-portfolio-analytics-solutions-report
-Pipe17;pipe17.com;Series A;unqualified;"Found 1 comparison page(s) on pipe17.com.
+https://imtc.com/insights/portfolio-trading-for-portfolio-managers",https://imtc.com/insights/cutter-associates-portfolio-analytics-solutions-report
+Pipe17,pipe17.com,Series A,unqualified,"Found 1 comparison page(s) on pipe17.com.
 
 [no-match] https://pipe17.com/compare/ipaas
 The page discusses Pipe17's features and advantages but does not explicitly compare Pipe17 against any specific named competitors.
@@ -503,8 +503,8 @@ https://pipe17.com
 https://pipe17.com/contact-us
 https://pipe17.com/blog/modern-commerce-demands-modern-operations-moving-beyond-legacy-systems
 https://pipe17.com/blog/2025-product-year-in-review
-https://pipe17.com/blog/integration-and-order-management-system-for-3pls-complete-buyers-guide-2026";https://pipe17.com/blog/top-15-order-management-systems-for-agentic-commerce-in-2025
-Ataccama;ataccama.com;Series A;unqualified;"Found 2 comparison page(s) on ataccama.com.
+https://pipe17.com/blog/integration-and-order-management-system-for-3pls-complete-buyers-guide-2026",https://pipe17.com/blog/top-15-order-management-systems-for-agentic-commerce-in-2025
+Ataccama,ataccama.com,Series A,unqualified,"Found 2 comparison page(s) on ataccama.com.
 
 [match] https://www.ataccama.com/analyst-research/comparing-data-governance-solutions-alation-vs-ataccama-vs-collibra
 Compares against: Alation
@@ -524,8 +524,8 @@ https://www.ataccama.com/blog/150m-growth-investment-future-of-ataccama
 https://www.ataccama.com/blog/data-discovery-tools
 https://www.ataccama.com/platform/master-data-management
 https://docs.ataccama.com/mdm/latest/exploring-master-data/comparing-records.html
-http://ataccama.com";https://www.ataccama.com/analyst-research/comparing-data-governance-solutions-alation-vs-ataccama-vs-collibra,https://www.ataccama.com/blog/ataccama-vs-informatica
-SquareX;sqrx.com;Series A;qualified;"Analyzed 9 page(s) on sqrx.com. No comparison pages found.
+http://ataccama.com","https://www.ataccama.com/analyst-research/comparing-data-governance-solutions-alation-vs-ataccama-vs-collibra,https://www.ataccama.com/blog/ataccama-vs-informatica"
+SquareX,sqrx.com,Series A,qualified,"Analyzed 9 page(s) on sqrx.com. No comparison pages found.
 
 [no-match] https://labs.sqrx.com/squarex-making-a-mark-at-first-ever-cybersec-asia24-8a40030d0b05
 The page discusses SquareX's participation in a cybersecurity conference and does not explicitly compare SquareX against any competitors.
@@ -555,8 +555,8 @@ The page discusses SquareX's offerings and vision but does not explicitly compar
 The page discusses the features and benefits of SquareX as an alternative to VDI but does not explicitly compare SquareX to any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://sqrx.com";
-Method Security;method.security;Series A;qualified;"Analyzed 3 page(s) on method.security. No comparison pages found.
+https://sqrx.com",
+Method Security,method.security,Series A,qualified,"Analyzed 3 page(s) on method.security. No comparison pages found.
 
 [no-match] https://docs.method.security/guides/issues/configure-issue-severity-overrides
 The page provides a guide on configuring severity overrides for Issue Types in Method Security, but does not compare Method Security with any competitors.
@@ -568,8 +568,8 @@ The page provides a guide on creating an Adversary in Reaper and does not compar
 The page does not contain any explicit comparisons of 'Method Security' against other competitors. It focuses on the company's mission, work culture, and employee benefits.
 
 [skipped] 1 candidate(s) not checked
-http://method.security";
-LightSource;lightsource.online;Series A;qualified;"Analyzed 9 page(s) on lightsource.ai. No comparison pages found.
+http://method.security",
+LightSource,lightsource.online,Series A,qualified,"Analyzed 9 page(s) on lightsource.ai. No comparison pages found.
 
 [no-match] https://lightsource.ai/blog/lightsource-funding-news
 The page discusses the launch and funding of LightSource but does not explicitly compare it to any competitors.
@@ -599,8 +599,8 @@ The page discusses supplier performance management and mentions LightSource but 
 The page discusses the use of LightSource by Arxada but does not explicitly compare LightSource against any specific competitors. There are mentions of 'the competition', but no real competitor names are provided or compared.
 
 [skipped] 1 candidate(s) not checked
-https://lightsource.ai";
-Acelab;acelabusa.com;Series A;qualified;"Analyzed 9 page(s) on acelabusa.com. No comparison pages found.
+https://lightsource.ai",
+Acelab,acelabusa.com,Series A,qualified,"Analyzed 9 page(s) on acelabusa.com. No comparison pages found.
 
 [no-match] https://acelabusa.com/whats-new-at-acelab/re-imagining-decisions-specifications-ai-beyond
 The page discusses Acelab and its features but does not explicitly compare Acelab against any specific competitors.
@@ -630,8 +630,8 @@ The page discusses Acelab's material language and decision-making tools but does
 The page contains the general terms and conditions for Acelab services and does not include any explicit comparisons of Acelab against other competitors.
 
 [skipped] 1 candidate(s) not checked
-https://acelabusa.com";
-Composio;composio.dev;Series A;unqualified;"Found 1 comparison page(s) on composio.dev.
+https://acelabusa.com",
+Composio,composio.dev,Series A,unqualified,"Found 1 comparison page(s) on composio.dev.
 
 [no-match] https://composio.dev/blog/openai-gpt-5-vs-claude-opus-4-1-a-coding-comparison
 The page discusses a comparison between GPT-5 and Claude Opus 4.1 but does not explicitly compare Composio against any competitors. Composio is mentioned only in the context of its product, Rube MCP, and not as a competitor.
@@ -650,8 +650,8 @@ https://composio.dev/blog/nango-alternatives-ai-agents
 https://composio.dev/blog/make-alternatives
 https://composio.dev/blog/merge-alternatives
 https://composio.dev/blog/paragon-alternatives
-https://composio.dev/blog/ai-agent-integration-platforms";https://composio.dev/blog/best-ai-agent-builders-and-integrations
-Revv;revvhq.com;Series A;unqualified;"Found 1 comparison page(s) on revvhq.com.
+https://composio.dev/blog/ai-agent-integration-platforms",https://composio.dev/blog/best-ai-agent-builders-and-integrations
+Revv,revvhq.com,Series A,unqualified,"Found 1 comparison page(s) on revvhq.com.
 
 [no-match] https://www.revvhq.com/blog/best-adas-calibration-equipment-2025
 The page discusses ADAS calibration equipment and software but does not explicitly compare 'Revv' against any competitors. It focuses on providing a guide rather than a comparison.
@@ -670,8 +670,8 @@ https://www.revvhq.com
 https://www.revvhq.com/blog/from-shop-floor-to-sema-success
 https://www.revvhq.com/case-studies/revvadas-fuels-customer-growth-for-texas-based-complete-collision-solutions
 https://www.revvhq.com/case-studies/how-a-95-year-old-family-business-modernized-their-adas-calibration-documentation-rudy-schmid-total-car-care
-https://www.revvhq.com/case-studies/precision-calibration-adas-growth-customer-relationships";https://www.revvhq.com/blog/top-adas-calibration-software-for-collision-shops
-Daybreak;daybreak.ai;Series A;qualified;"Analyzed 3 page(s) on daybreak.ai. No comparison pages found.
+https://www.revvhq.com/case-studies/precision-calibration-adas-growth-customer-relationships",https://www.revvhq.com/blog/top-adas-calibration-software-for-collision-shops
+Daybreak,daybreak.ai,Series A,qualified,"Analyzed 3 page(s) on daybreak.ai. No comparison pages found.
 
 [error] https://www.daybreak.ai/meet-luma
 Validation error: Scraping or analysis failed
@@ -683,8 +683,8 @@ The page does not explicitly compare 'Daybreak' against any specific competitors
 The page discusses the AI Enabled Decision System and its functionalities but does not explicitly compare 'Daybreak' against any competitors.
 
 [skipped] 1 candidate(s) not checked
-http://daybreak.ai";
-Savant Labs;savantlabs.io;Series A;unqualified;"Found 3 comparison page(s) on savantlabs.io.
+http://daybreak.ai",
+Savant Labs,savantlabs.io,Series A,unqualified,"Found 3 comparison page(s) on savantlabs.io.
 
 [match] https://savantlabs.io/platform/savant-vs-alteryx
 Compares against: Alteryx
@@ -705,8 +705,8 @@ http://savantlabs.io
 https://community.savantlabs.io/c/share-and-learn/how-big-is-too-big-comparing-file-size-limits-across-spreadsheet-and-analytics-tools
 https://savantlabs.io/blog/dataiku-competitors-in-2025
 https://savantlabs.io/blog/tax-consulting-firms
-https://savantlabs.io/pricing";https://savantlabs.io/platform/savant-vs-alteryx,https://savantlabs.io/blog/alteryx-vs-competitors-analysis,https://savantlabs.io/blog/knime-alternatives
-Malbek;malbek.io;Series A;qualified;"Analyzed 9 page(s) on malbek.io. No comparison pages found.
+https://savantlabs.io/pricing","https://savantlabs.io/platform/savant-vs-alteryx,https://savantlabs.io/blog/alteryx-vs-competitors-analysis,https://savantlabs.io/blog/knime-alternatives"
+Malbek,malbek.io,Series A,qualified,"Analyzed 9 page(s) on malbek.io. No comparison pages found.
 
 [no-match] https://www.malbek.io/platform/malbek-ai
 The page focuses on promoting Malbek AI and its features without explicitly comparing it to any other specific competitors.
@@ -736,8 +736,8 @@ The page discusses Malbek's recognition in the Gartner Magic Quadrant but does n
 The page discusses contract risk management and mentions Malbek's features but does not explicitly compare Malbek against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.malbek.io";
-Mem0;mem0.ai;Series A;unqualified;"Found 1 comparison page(s) on mem0.ai.
+https://www.malbek.io",
+Mem0,mem0.ai,Series A,unqualified,"Found 1 comparison page(s) on mem0.ai.
 
 [no-match] https://mem0.ai/blog/benchmarking-rag-vs-mem0-a-rigorous-technical-analysis-of-stateful-ai-memory
 The content indicates that the page does not exist or may have been moved, and there are no comparisons made regarding 'Mem0' or any competitors.
@@ -756,12 +756,12 @@ https://mem0.ai/timeline
 https://mem0.ai/research
 https://mem0.ai/provider/cohere
 https://docs.mem0.ai/open-source/overview
-https://mem0.ai/blog/ai-memory-layer-guide";https://mem0.ai/blog/benchmarked-openai-memory-vs-langmem-vs-memgpt-vs-mem0-for-long-term-memory-here-s-how-they-stacked-up
-Artemis;artemisag.com;Series A;qualified;"Checked iunu.com but found no comparison pages.
+https://mem0.ai/blog/ai-memory-layer-guide",https://mem0.ai/blog/benchmarked-openai-memory-vs-langmem-vs-memgpt-vs-mem0-for-long-term-memory-here-s-how-they-stacked-up
+Artemis,artemisag.com,Series A,qualified,"Checked iunu.com but found no comparison pages.
 
 [skipped] 1 candidate(s) not checked
-https://iunu.com";
-Sybill AI;sybill.ai;Series A;unqualified;"Found 3 comparison page(s) on sybill.ai.
+https://iunu.com",
+Sybill AI,sybill.ai,Series A,unqualified,"Found 3 comparison page(s) on sybill.ai.
 
 [match] https://www.sybill.ai/blogs/otter-vs-sybill
 Compares against: Otter
@@ -782,8 +782,8 @@ https://www.sybill.ai/blogs/best-fireflies-alternatives
 https://www.sybill.ai/blogs/the-2025-ai-gong-alternatives
 https://www.sybill.ai/competitor-intelligence
 https://www.sybill.ai/blogs/ai-sales-assistant-software-comparison
-https://www.sybill.ai/blogs/which-ai-platform-is-the-best";https://www.sybill.ai/blogs/otter-vs-sybill,https://www.sybill.ai/blogs/sybill-vs-fireflies,https://www.sybill.ai/sybill-vs-fathom
-Opus;opus.so;Series A;qualified;"Analyzed 9 page(s) on opus.so. No comparison pages found.
+https://www.sybill.ai/blogs/which-ai-platform-is-the-best","https://www.sybill.ai/blogs/otter-vs-sybill,https://www.sybill.ai/blogs/sybill-vs-fireflies,https://www.sybill.ai/sybill-vs-fathom"
+Opus,opus.so,Series A,qualified,"Analyzed 9 page(s) on opus.so. No comparison pages found.
 
 [no-match] https://www.opus.so/blog/opus-training-expands-beyond-restaurants-to-serve-multi-unit-brands-across-industries
 The page discusses Opus and its expansion into various industries but does not explicitly compare Opus to any competitors.
@@ -813,8 +813,8 @@ The page discusses customer service training in restaurants and mentions 'Opus' 
 The content discusses training practices at Viejas Casino & Resort and does not compare 'Opus' against any competitors.
 
 [skipped] 1 candidate(s) not checked
-http://opus.so";
-BlastPoint;blastpoint.com;Series A;qualified;"Analyzed 9 page(s) on blastpoint.com. No comparison pages found.
+http://opus.so",
+BlastPoint,blastpoint.com,Series A,qualified,"Analyzed 9 page(s) on blastpoint.com. No comparison pages found.
 
 [no-match] https://blastpoint.com/blog/maximize-utility-savings-reducing-call-center-volume-with-blastpoints-advanced-customer-insights
 The page discusses BlastPoint's Customer Intelligence Platform and its features but does not explicitly compare BlastPoint against any competitors.
@@ -844,8 +844,8 @@ The page discusses the role of customer intelligence in banking and mentions Bla
 The page discusses changes in customer segmentation and the impact of BlastPoint's services but does not explicitly compare BlastPoint against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://blastpoint.com";
-Alpha Design AI;alphadesign.ai;Series A;qualified;"Analyzed 5 page(s) on chipagents.ai. No comparison pages found.
+https://blastpoint.com",
+Alpha Design AI,alphadesign.ai,Series A,qualified,"Analyzed 5 page(s) on chipagents.ai. No comparison pages found.
 
 [no-match] https://chipagents.ai/blogs/chipagents-rca
 The page discusses ChipAgents RCA and its capabilities but does not explicitly compare 'Alpha Design AI' with any competitors.
@@ -863,8 +863,8 @@ The page does not contain any explicit comparisons of 'Alpha Design AI' against 
 The page is a job listing for a Senior Design and Verification Engineer position at ChipAgents and does not contain any explicit comparisons with competitors.
 
 [skipped] 1 candidate(s) not checked
-https://chipagents.ai";
-Oneleet;oneleet.com;Series A;qualified;"Analyzed 9 page(s) on oneleet.com. No comparison pages found.
+https://chipagents.ai",
+Oneleet,oneleet.com,Series A,qualified,"Analyzed 9 page(s) on oneleet.com. No comparison pages found.
 
 [no-match] https://www.oneleet.com/blog/network-security-vs-data-security
 The page discusses network security and data security but does not explicitly compare 'Oneleet' against any competitors.
@@ -894,8 +894,8 @@ The page discusses data security compliance and mentions various regulations and
 The page discusses the importance of penetration testing for SOC 2 compliance and mentions Oneleet's services, but it does not explicitly compare Oneleet against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.oneleet.com";
-Evertune;evertune.ai;Series A;unqualified;"Found 3 comparison page(s) on evertune.ai.
+https://www.oneleet.com",
+Evertune,evertune.ai,Series A,unqualified,"Found 3 comparison page(s) on evertune.ai.
 
 [match] https://www.evertune.ai/resources/insights-on-ai/evertune-vs-profound-feature-by-feature-geo-platform-comparison
 Compares against: Profound
@@ -916,8 +916,8 @@ https://www.evertune.ai/resources/insights-on-ai/best-generative-engine-optimiza
 https://www.evertune.ai/resources/insights-on-ai/the-10-best-ai-visibility-tools-for-2026
 https://www.evertune.ai/resources/insights-on-ai/getting-started-with-geo-why-ease-of-use-matters
 https://www.evertune.ai/research/insights-on-ai/how-to-get-credible-competitive-benchmarking-in-ai-search-optimization
-https://www.evertune.ai/products/ai-brand-index";https://www.evertune.ai/resources/insights-on-ai/evertune-vs-profound-feature-by-feature-geo-platform-comparison,https://www.evertune.ai/resources/insights-on-ai/evertune-vs-airops-which-geo-platform-delivers-the-best-results,https://www.evertune.ai/research/insights-on-ai/evertune-vs-athena-hq-which-geo-platform-delivers-the-best-results
-Ontop;getontop.com;Series A;unqualified;"Found 3 comparison page(s) on getontop.com.
+https://www.evertune.ai/products/ai-brand-index","https://www.evertune.ai/resources/insights-on-ai/evertune-vs-profound-feature-by-feature-geo-platform-comparison,https://www.evertune.ai/resources/insights-on-ai/evertune-vs-airops-which-geo-platform-delivers-the-best-results,https://www.evertune.ai/research/insights-on-ai/evertune-vs-athena-hq-which-geo-platform-delivers-the-best-results"
+Ontop,getontop.com,Series A,unqualified,"Found 3 comparison page(s) on getontop.com.
 
 [match] https://www.getontop.com/blog/ontop-vs-deel-best-global-payroll-platform-comparison
 Compares against: Deel
@@ -938,8 +938,8 @@ https://www.getontop.com/blog/expert-global-team-strategies-for-2025-ontop
 https://www.getontop.com/blog-category/global-payroll-payments
 https://www.getontop.com/blog/the-ultimate-guide-to-global-payroll-solutions-for-remote-teams
 https://www.getontop.com
-https://www.getontop.com/pricing";https://www.getontop.com/blog/ontop-vs-deel-best-global-payroll-platform-comparison,https://www.getontop.com/blog/ontop-vs-remote-complete-global-payroll-comparison,https://www.getontop.com/blog/ontop-vs-papaya-global-2025-payroll-comparison-for-startups-enterprises
-Rencore;rencore.com;Series A;unqualified;"Found 1 comparison page(s) on rencore.com.
+https://www.getontop.com/pricing","https://www.getontop.com/blog/ontop-vs-deel-best-global-payroll-platform-comparison,https://www.getontop.com/blog/ontop-vs-remote-complete-global-payroll-comparison,https://www.getontop.com/blog/ontop-vs-papaya-global-2025-payroll-comparison-for-startups-enterprises"
+Rencore,rencore.com,Series A,unqualified,"Found 1 comparison page(s) on rencore.com.
 
 [no-match] https://rencore.com/en/blog/sharepoint-vs-onedrive
 The page discusses the differences and governance implications of SharePoint and OneDrive but does not explicitly compare Rencore against any competitors.
@@ -970,8 +970,8 @@ The page explicitly compares Rencore against AvePoint, detailing specific featur
 The page discusses the differences between Copilot for Microsoft 365 and Copilot Studio, as well as how Rencore Governance can assist with these tools, but it does not explicitly compare Rencore against any competitors.
 
 [skipped] 1 candidate(s) not checked
-http://rencore.com";https://rencore.com/en/avepoint-alternative-m365-governance-tools
-ModernLoop;modernloop.io;Series A;unqualified;"Found 2 comparison page(s) on modernloop.com.
+http://rencore.com",https://rencore.com/en/avepoint-alternative-m365-governance-tools
+ModernLoop,modernloop.io,Series A,unqualified,"Found 2 comparison page(s) on modernloop.com.
 
 [match] https://www.modernloop.com/blog/what-are-recruiting-automation-tools
 Compares against: Greenhouse, CoderPad
@@ -991,8 +991,8 @@ https://www.modernloop.com/blog/interview-scheduling-ultimate-guide-2025
 https://www.modernloop.com/blog/interview-scheduling-strategy-step-by-step-guide
 https://www.modernloop.com/blog/recruitment-process-automation-the-complete-guide
 https://www.modernloop.com
-https://www.modernloop.com/blog/ai-interview-scheduling";https://www.modernloop.com/blog/what-are-recruiting-automation-tools,https://www.modernloop.com/blog/the-best-goodtime-interview-scheduling-alternatives-in-2025
-Brellium;brellium.io;Series A;qualified;"Analyzed 9 page(s) on brellium.io. No comparison pages found.
+https://www.modernloop.com/blog/ai-interview-scheduling","https://www.modernloop.com/blog/what-are-recruiting-automation-tools,https://www.modernloop.com/blog/the-best-goodtime-interview-scheduling-alternatives-in-2025"
+Brellium,brellium.io,Series A,qualified,"Analyzed 9 page(s) on brellium.io. No comparison pages found.
 
 [no-match] https://www.brellium.io/resources/articles/99213-cpt-code-documentation-requirements-compliance-guide
 The page discusses CPT code 99213 and its documentation requirements without explicitly comparing Brellium to any competitors.
@@ -1022,8 +1022,8 @@ The content discusses E/M codes and their application in psychiatry but does not
 The page provides a comprehensive guide on CPT code 97110 and its requirements but does not compare Brellium to any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-http://brellium.io";
-Searchlight;searchlight.ai;Series A;qualified;"Analyzed 9 page(s) on searchlight.ai. No comparison pages found.
+http://brellium.io",
+Searchlight,searchlight.ai,Series A,qualified,"Analyzed 9 page(s) on searchlight.ai. No comparison pages found.
 
 [no-match] https://www.searchlight.ai/category/quality-of-hire
 The page does not contain any explicit comparisons of 'Searchlight' against other competitors. It discusses various topics related to hiring and quality of hire but does not focus on comparing 'Searchlight' with other products.
@@ -1053,8 +1053,8 @@ The page discusses the integration of Searchlight with Lattice and mentions othe
 The page is a terms and conditions document for Searchlight and does not contain any explicit comparisons to competitors.
 
 [skipped] 1 candidate(s) not checked
-http://searchlight.ai";
-Drivetrain;drivetrain.ai;Series A;unqualified;"Found 2 comparison page(s) on drivetrain.ai.
+http://searchlight.ai",
+Drivetrain,drivetrain.ai,Series A,unqualified,"Found 2 comparison page(s) on drivetrain.ai.
 
 [match] https://www.drivetrain.ai/post/anaplan-vs-adaptive
 Compares against: Anaplan, Workday Adaptive Planning
@@ -1074,8 +1074,8 @@ https://www.drivetrain.ai/post/planful-competitors-and-alternatives
 https://www.drivetrain.ai/post/datarails-competitors-and-alternatives
 https://www.drivetrain.ai/post/competitors-and-alternatives-workday-adaptive-planning
 https://www.drivetrain.ai/post/board-competitors-alternatives
-https://www.drivetrain.ai/post/onestream-competitors-and-alternatives";https://www.drivetrain.ai/post/anaplan-vs-adaptive,https://www.drivetrain.ai/post/abacum-vs-planful-comparison
-Artisan AI;artisan.co;Series A;unqualified;"Found 3 comparison page(s) on artisan.co.
+https://www.drivetrain.ai/post/onestream-competitors-and-alternatives","https://www.drivetrain.ai/post/anaplan-vs-adaptive,https://www.drivetrain.ai/post/abacum-vs-planful-comparison"
+Artisan AI,artisan.co,Series A,unqualified,"Found 3 comparison page(s) on artisan.co.
 
 [match] https://www.artisan.co/artisan-vs-relevance
 Compares against: Relevance
@@ -1096,8 +1096,8 @@ https://www.artisan.co/blog/zoominfo-alternatives
 https://www.artisan.co/blog/expandi-alternatives
 https://www.artisan.co/blog/apollo-alternatives
 http://artisan.co
-https://www.artisan.co/blog/ai-sales-assistants";https://www.artisan.co/artisan-vs-relevance,https://www.artisan.co/artisan-vs-11x,https://www.artisan.co/blog/seamless-ai-alternatives
-TurinTech AI;turintech.ai;Series A;qualified;"Analyzed 9 page(s) on turintech.ai. No comparison pages found.
+https://www.artisan.co/blog/ai-sales-assistants","https://www.artisan.co/artisan-vs-relevance,https://www.artisan.co/artisan-vs-11x,https://www.artisan.co/blog/seamless-ai-alternatives"
+TurinTech AI,turintech.ai,Series A,qualified,"Analyzed 9 page(s) on turintech.ai. No comparison pages found.
 
 [no-match] https://www.turintech.ai/news/turintech-ai-intel-r-ai-tools-frameworks-speed-up-your-ml-development-and-inferencing-on-cpus-and-gpus
 The page discusses the collaboration between TurinTech AI and Intel without explicitly comparing TurinTech AI to any competitors. There are no direct comparisons made against other companies or products.
@@ -1127,8 +1127,8 @@ The page discusses TurinTech's AI platform and its applications but does not exp
 The page discusses the capabilities of TurinTech's Artemis platform for optimizing AI agents but does not explicitly compare it to any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.turintech.ai";
-BeyondTrucks;beyondtrucks.com;Series A;unqualified;"Found 2 comparison page(s) on beyondtrucks.com.
+https://www.turintech.ai",
+BeyondTrucks,beyondtrucks.com,Series A,unqualified,"Found 2 comparison page(s) on beyondtrucks.com.
 
 [match] https://www.beyondtrucks.com/resources/tms-software-comparisons/beyondtrucks-vs-pcs
 Compares against: PCS
@@ -1148,8 +1148,8 @@ https://www.beyondtrucks.com/resources/tms-software-comparisons
 https://www.beyondtrucks.com/press/newsletter/useful-updates
 https://www.beyondtrucks.com/resources/white-papers/tough-times-ahead-for-trucking-companies
 https://www.beyondtrucks.com/blog/tms-and-integration/multi-tenant-saas-tms
-https://www.beyondtrucks.com/blog/technology-and-ai/fleet-intelligence";https://www.beyondtrucks.com/resources/tms-software-comparisons/beyondtrucks-vs-pcs,https://www.beyondtrucks.com/resources/tms-software-comparisons/beyondtrucks-vs-tmw
-RocketReach.co;rocketreach.co;Series A;unqualified;"Found 3 comparison page(s) on rocketreach.co.
+https://www.beyondtrucks.com/blog/technology-and-ai/fleet-intelligence","https://www.beyondtrucks.com/resources/tms-software-comparisons/beyondtrucks-vs-pcs,https://www.beyondtrucks.com/resources/tms-software-comparisons/beyondtrucks-vs-tmw"
+RocketReach.co,rocketreach.co,Series A,unqualified,"Found 3 comparison page(s) on rocketreach.co.
 
 [match] https://rocketreach.co/resources/comparison/rocketreach-vs-zoominfo
 Compares against: ZoomInfo
@@ -1170,8 +1170,8 @@ https://rocketreach.co/resources/savetime
 https://rocketreach.co
 https://rocketreach.co/resources/unlock-your-sales-potential-q4-2024-social-campaign
 https://rocketreach.co/resources/how-to-leverage-an-email-finder-tool
-https://rocketreach.co/v-competitors_b7cfe98bc116d1ba";https://rocketreach.co/resources/comparison/rocketreach-vs-alternatives,https://rocketreach.co/resources/comparison/rocketreach-vs-zoominfo,https://rocketreach.co/resources/rocketreach-vs-apollo-2026
-Spin.AI;spin.ai;Series A;unqualified;"Found 3 comparison page(s) on spin.ai.
+https://rocketreach.co/v-competitors_b7cfe98bc116d1ba","https://rocketreach.co/resources/comparison/rocketreach-vs-alternatives,https://rocketreach.co/resources/comparison/rocketreach-vs-zoominfo,https://rocketreach.co/resources/rocketreach-vs-apollo-2026"
+Spin.AI,spin.ai,Series A,unqualified,"Found 3 comparison page(s) on spin.ai.
 
 [match] https://spin.ai/blog/spinbackup-vs-syscloud-comparison
 Compares against: SysCloud
@@ -1192,8 +1192,8 @@ https://spin.ai/blog/best-crxcavator-alternative-browser-extension-risk-assessme
 https://spin.ai/blog/top-10-salesforce-backup-options
 https://spin.ai/blog/browser-security-tools
 https://spin.ai/blog/google-workspace-backup-solutions-comparison
-https://spin.ai/blog/comprehensive-backup-comparison-checklist-for-smbs";https://spin.ai/blog/spinbackup-vs-syscloud-comparison,https://spin.ai/blog/adaptive-shield-vs-spin-ai-comparing-popular-sspm-solutions,https://spin.ai/blog/spinbackup-vs-afi-comparison
-Knogin;knogin.com;Series A;unqualified;"Found 1 comparison page(s) on knogin.com.
+https://spin.ai/blog/comprehensive-backup-comparison-checklist-for-smbs","https://spin.ai/blog/spinbackup-vs-syscloud-comparison,https://spin.ai/blog/adaptive-shield-vs-spin-ai-comparing-popular-sspm-solutions,https://spin.ai/blog/spinbackup-vs-afi-comparison"
+Knogin,knogin.com,Series A,unqualified,"Found 1 comparison page(s) on knogin.com.
 
 [no-match] https://knogin.com/en/contact
 The page is focused on scheduling technical demos and does not provide any explicit comparison of 'Knogin' against other competitors.
@@ -1212,8 +1212,8 @@ https://knogin.com/en/products/playbooks
 https://knogin.com/en/products/investigation-workflows
 https://knogin.com/en/pricing
 https://knogin.com/en/features/ai-models
-https://knogin.com/en/terms";https://knogin.com/en/products/ai-intelligence
-Firecrawl;firecrawl.dev;Series A;unqualified;"Found 2 comparison page(s) on firecrawl.dev.
+https://knogin.com/en/terms",https://knogin.com/en/products/ai-intelligence
+Firecrawl,firecrawl.dev,Series A,unqualified,"Found 2 comparison page(s) on firecrawl.dev.
 
 [match] https://www.firecrawl.dev/compare/firecrawl-vs-tavily
 Compares against: Tavily
@@ -1233,8 +1233,8 @@ https://www.firecrawl.dev/blog/top_10_tools_for_web_scraping
 https://www.firecrawl.dev/blog/apify-alternatives
 https://www.firecrawl.dev/blog/oxylabs-alternatives
 https://www.firecrawl.dev/blog/octoparse-alternatives
-https://www.firecrawl.dev/blog/tavily-alternatives";https://www.firecrawl.dev/compare/firecrawl-vs-tavily,https://www.firecrawl.dev/blog/best-web-scraping-api
-Subskribe;subskribe.com;Series A;unqualified;"Found 1 comparison page(s) on subskribe.com.
+https://www.firecrawl.dev/blog/tavily-alternatives","https://www.firecrawl.dev/compare/firecrawl-vs-tavily,https://www.firecrawl.dev/blog/best-web-scraping-api"
+Subskribe,subskribe.com,Series A,unqualified,"Found 1 comparison page(s) on subskribe.com.
 
 [no-match] https://www.subskribe.com/compare/subskribe-vs-salesforce-cpq
 The content provided does not include any explicit comparisons of 'Subskribe' against specific competitors. It lists guides related to SaaS metrics, subscription billing, and CPQ but does not serve as a dedicated comparison page.
@@ -1253,8 +1253,8 @@ https://www.subskribe.com/blog
 https://www.subskribe.com
 https://www.subskribe.com/blog/how-to-overcome-b2b-sales-challenges
 https://www.subskribe.com/blog/the-post-subscription-era
-https://www.subskribe.com/customers/vivun";https://www.subskribe.com/compare/subskribe-vs-zuora
-Katalon;katalon.com;Series A;unqualified;"Found 2 comparison page(s) on katalon.com.
+https://www.subskribe.com/customers/vivun",https://www.subskribe.com/compare/subskribe-vs-zuora
+Katalon,katalon.com,Series A,unqualified,"Found 2 comparison page(s) on katalon.com.
 
 [no-match] https://forum.katalon.com/t/alternatives-to-getting-a-katalon-runtime-license-to-run-a-test-suite/114443
 The page does not explicitly compare 'Katalon' against any specific competitors. It discusses issues related to using 'Katalon Runtime Engine' but does not serve as a dedicated comparison page.
@@ -1274,8 +1274,8 @@ https://katalon.com/resources-center/blog/applitools-alternatives
 https://forum.katalon.com/t/comparing-data-from-two-sites/17281
 https://forum.katalon.com/t/comparing-page-outputs/49835
 http://katalon.com
-https://forum.katalon.com/t/how-to-compare-two-entire-pages/60211";https://docs.katalon.com/katalon-platform/plugins-and-add-ons/katalon-recorder-extension/production-evaluation-center/katalon-recorder-vs-alternatives,https://katalon.com/resources-center/blog/best-perfecto-alternatives
-Hype;hype.co;Series A;unqualified;"Found 1 comparison page(s) on hype.co.
+https://forum.katalon.com/t/how-to-compare-two-entire-pages/60211","https://docs.katalon.com/katalon-platform/plugins-and-add-ons/katalon-recorder-extension/production-evaluation-center/katalon-recorder-vs-alternatives,https://katalon.com/resources-center/blog/best-perfecto-alternatives"
+Hype,hype.co,Series A,unqualified,"Found 1 comparison page(s) on hype.co.
 
 [match] https://hype.co/blog/industry/linktree-alternatives
 Compares against: Campsite.bio, Lnk.bio, Direct.me, Linkin.bio, Milkshake, Taplink, Bio.fm
@@ -1294,8 +1294,8 @@ https://hype.co/@thealternativemixtapes
 http://hype.co
 https://hype.co/blog/industry/episode-010
 https://hype.co/blog/industry/make-memorable-first-impressions-small-business-owner
-https://hype.co/terms/user-agreement";https://hype.co/blog/industry/linktree-alternatives
-Planhat;planhat.com;Series A;qualified;"Analyzed 9 page(s) on planhat.com. No comparison pages found.
+https://hype.co/terms/user-agreement",https://hype.co/blog/industry/linktree-alternatives
+Planhat,planhat.com,Series A,qualified,"Analyzed 9 page(s) on planhat.com. No comparison pages found.
 
 [no-match] https://www.planhat.com/editorial/crm-vs-cs-software-understanding-the-difference
 The page discusses the differences between CRM and customer success software but does not explicitly compare Planhat against any specific competitors.
@@ -1325,8 +1325,8 @@ The page does not explicitly compare 'Planhat' against any competitors, nor does
 The page discusses features of Planhat but does not explicitly compare Planhat against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.planhat.com";
-Heron Data;herondata.io;Series A;unqualified;"Found 1 comparison page(s) on herondata.io.
+https://www.planhat.com",
+Heron Data,herondata.io,Series A,unqualified,"Found 1 comparison page(s) on herondata.io.
 
 [no-match] https://www.herondata.io/blog/lending-software
 The page discusses various lending software solutions but does not explicitly compare 'Heron Data' against any competitors.
@@ -1351,8 +1351,8 @@ The page lists Heron alongside other business verification services, indicating 
 https://www.herondata.io
 https://www.herondata.io/blog/federato-competitors
 https://www.herondata.io/blog/ocrolus-competitors
-https://www.herondata.io/case-studies/big-think-capital";https://www.herondata.io/blog/business-verification-services
-Carbon Direct;carbon-direct.com;Series A;qualified;"Analyzed 9 page(s) on carbon-direct.com. No comparison pages found.
+https://www.herondata.io/case-studies/big-think-capital",https://www.herondata.io/blog/business-verification-services
+Carbon Direct,carbon-direct.com,Series A,qualified,"Analyzed 9 page(s) on carbon-direct.com. No comparison pages found.
 
 [no-match] https://www.carbon-direct.com/press/carbon-direct-and-jpmorganchase
 The page does not compare Carbon Direct against any competitors; it discusses a collaboration with JPMorganChase and presents a white paper without explicit comparisons to other companies.
@@ -1382,8 +1382,8 @@ The page discusses building emissions laws in various cities but does not explic
 The page does not explicitly compare 'Carbon Direct' against any competitors; it primarily discusses its own services and offerings.
 
 [skipped] 1 candidate(s) not checked
-https://www.carbon-direct.com";
-Mobot;mobot.io;Series A;unqualified;"Found 1 comparison page(s) on mobot.io.
+https://www.carbon-direct.com",
+Mobot,mobot.io,Series A,unqualified,"Found 1 comparison page(s) on mobot.io.
 
 [no-match] https://www.mobot.io/compare/mobot-vs-waldo
 The content discusses Mobot's capabilities and case studies but does not explicitly compare Mobot against any named competitors.
@@ -1402,8 +1402,8 @@ https://www.mobot.io/blog/top-5-mobile-testing-automation-tools-in-2024
 https://www.mobot.io/blog/the-top-mobile-app-testing-services-in-2024
 https://demo.mobot.io/buyers-guide
 https://www.mobot.io/competitor-comparison
-https://www.mobot.io";https://www.mobot.io/blog/top-5-mobile-deep-link-testing-tools-in-2024
-Arena;arena.im;Series A;unqualified;"Found 3 comparison page(s) on arena.im.
+https://www.mobot.io",https://www.mobot.io/blog/top-5-mobile-deep-link-testing-tools-in-2024
+Arena,arena.im,Series A,unqualified,"Found 3 comparison page(s) on arena.im.
 
 [match] https://arena.im/arena-comparisons/commento-io-vs-arena-comment-system
 Compares against: Commento.io
@@ -1424,8 +1424,8 @@ https://arena.im/online-communities/reddit-vs-arena-community-comparison
 https://arena.im/compare/beehiiv
 https://arena.im/compare/discord
 https://arena.im/group-chat/vimeo-ott-alternatives-and-competitors
-http://arena.im";https://arena.im/group-chat/arena-vs-imarena,https://arena.im/arena-comparisons/commento-io-vs-arena-comment-system,https://arena.im/online-communities/circle-so-vs-arena-community
-Bikky;bikky.com;Series A;qualified;"Analyzed 9 page(s) on bikky.com. No comparison pages found.
+http://arena.im","https://arena.im/group-chat/arena-vs-imarena,https://arena.im/arena-comparisons/commento-io-vs-arena-comment-system,https://arena.im/online-communities/circle-so-vs-arena-community"
+Bikky,bikky.com,Series A,qualified,"Analyzed 9 page(s) on bikky.com. No comparison pages found.
 
 [no-match] https://www.bikky.com/press-release/mellow-mushroom-powers-data-driven-marketing-and-expansion-with-bikky
 The page discusses Bikky's partnership with Mellow Mushroom and their use of the platform, but it does not provide a dedicated comparison of Bikky against other competitors.
@@ -1455,8 +1455,8 @@ The page does not explicitly compare 'Bikky' against any competitors. It discuss
 The page discusses the implementation of Bikky at Eggs Up Grill but does not explicitly compare Bikky to any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://bikky.com";
-Park Loyalty Inc.;parkloyalty.com;Series A;qualified;"Analyzed 9 page(s) on parkloyalty.com. No comparison pages found.
+https://bikky.com",
+Park Loyalty Inc.,parkloyalty.com,Series A,qualified,"Analyzed 9 page(s) on parkloyalty.com. No comparison pages found.
 
 [no-match] https://parkloyalty.com/home
 The page does not contain any explicit comparisons of 'Park Loyalty Inc.' against other competitors. It primarily discusses the features and benefits of Park Loyalty's own solutions.
@@ -1486,8 +1486,8 @@ The page discusses achievements and milestones of Park Loyalty Inc. without comp
 The page discusses SEPTA's parking modernization initiative and the role of Park Loyalty but does not explicitly compare Park Loyalty against any competitors.
 
 [skipped] 1 candidate(s) not checked
-http://parkloyalty.com";
-Vermeer;getvermeer.com;Series A;qualified;"Analyzed 6 page(s) on getvermeer.com. No comparison pages found.
+http://parkloyalty.com",
+Vermeer,getvermeer.com,Series A,qualified,"Analyzed 6 page(s) on getvermeer.com. No comparison pages found.
 
 [no-match] https://www.getvermeer.com/news/press-release-vermeer-and-sentry-operations-announce-strategic-partnership-to-deliver-next--generation-autonomous-navigation-for-contested-environments
 The page discusses a partnership between Vermeer and Sentry Operations but does not explicitly compare Vermeer against any competitors.
@@ -1505,8 +1505,8 @@ The page discusses the VPS Payload and its capabilities but does not explicitly 
 The page discusses the Satellite Collaboration Toolkit (SCTK) and its capabilities but does not explicitly compare 'Vermeer' against any competitors.
 
 [no-match] https://www.getvermeer.com/terms
-The page is a terms of use document for the Vermeer mobile application and does not contain any comparisons to competitors.";
-BreachRx;breachrx.com;Series A;qualified;"Analyzed 9 page(s) on breachrx.com. No comparison pages found.
+The page is a terms of use document for the Vermeer mobile application and does not contain any comparisons to competitors.",
+BreachRx,breachrx.com,Series A,qualified,"Analyzed 9 page(s) on breachrx.com. No comparison pages found.
 
 [no-match] https://www.breachrx.com/2025/07/23/breachrx-recognized-in-gartner-2025-hype-cycle-cirm
 The page discusses BreachRx's recognition in Gartner's report but does not explicitly compare it to any competitors.
@@ -1536,8 +1536,8 @@ The page does not explicitly compare BreachRx against any competitors; it focuse
 The page discusses the BreachRx Partner Program and its benefits without explicitly comparing BreachRx to any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.breachrx.com";
-Arc Technologies;joinarc.com;Series A;unqualified;"Found 1 comparison page(s) on joinarc.com.
+https://www.breachrx.com",
+Arc Technologies,joinarc.com,Series A,unqualified,"Found 1 comparison page(s) on joinarc.com.
 
 [no-match] https://www.joinarc.com/learning-center/top-financial-providers
 The page discusses the features and capabilities of Arc but does not explicitly compare Arc Technologies against any specific competitors.
@@ -1556,8 +1556,8 @@ https://www.joinarc.com/learning-center/fintech-platforms
 https://www.joinarc.com
 https://www.joinarc.com/blog/building-arc-intelligence
 https://www.joinarc.com/blog/startup-funding-providers
-https://www.joinarc.com/blog/startup-funding";https://www.joinarc.com/learning-center/brex-mercury
-Humanly.io;humanly.io;Series A;unqualified;"Found 2 comparison page(s) on humanly.io.
+https://www.joinarc.com/blog/startup-funding",https://www.joinarc.com/learning-center/brex-mercury
+Humanly.io,humanly.io,Series A,unqualified,"Found 2 comparison page(s) on humanly.io.
 
 [match] https://www.humanly.io/blog/humanly-vs-paradox-ai-recruiting
 Compares against: Paradox
@@ -1577,8 +1577,8 @@ http://humanly.io
 https://humanly.io/blog/the-big-7-ai-recruiting-platforms
 https://www.humanly.io/blog/arkesh-mishra
 https://www.humanly.io/blog/ai-interviewing-pros-cons--how-to-get-it-right
-https://humanly.io/blog/how-to-ask-unbiased-interview-questions---list-of-standardized-interview-questions--guide-to-unconscious-bias-in-hiring";https://www.humanly.io/blog/humanly-vs-paradox-ai-recruiting,https://humanly.io/blog/talent-crm-vs-recruiting-crm-vs-ai-native-crm-the-complete-buyers-guide
-Exostellar;exostellar.io;Series A;qualified;"Analyzed 6 page(s) on exostellar.io. No comparison pages found.
+https://humanly.io/blog/how-to-ask-unbiased-interview-questions---list-of-standardized-interview-questions--guide-to-unconscious-bias-in-hiring","https://www.humanly.io/blog/humanly-vs-paradox-ai-recruiting,https://humanly.io/blog/talent-crm-vs-recruiting-crm-vs-ai-native-crm-the-complete-buyers-guide"
+Exostellar,exostellar.io,Series A,qualified,"Analyzed 6 page(s) on exostellar.io. No comparison pages found.
 
 [no-match] https://customer.support.exostellar.io/servicedesk/customer/portal/3
 The content provided does not include any explicit comparison of 'Exostellar' with other competitors. It only discusses the use of cookies by Atlassian, with no mention of any competitors or comparison.
@@ -1600,8 +1600,8 @@ The page provides usage instructions for the eks-node-cli and does not compare '
 
 [skipped] 2 candidate(s) not checked
 https://customer.support.exostellar.io
-http://exostellar.io";
-nexos.ai;nexos.ai;Series A;unqualified;"Found 3 comparison page(s) on nexos.ai.
+http://exostellar.io",
+nexos.ai,nexos.ai,Series A,unqualified,"Found 3 comparison page(s) on nexos.ai.
 
 [match] https://nexos.ai/blog/nexos-ai-vs-perplexity-entreprise-pro
 Compares against: Perplexity Enterprise Pro
@@ -1622,8 +1622,8 @@ https://nexos.ai/blog/chatgpt-free-vs-paid
 https://nexos.ai/blog/claude-vs-chatgpt
 https://nexos.ai/blog/perplexity-vs-chatgpt
 https://nexos.ai
-https://nexos.ai/blog/the-ai-gold-rush";https://nexos.ai/blog/nexos-ai-vs-unify-ai,https://nexos.ai/blog/nexos-ai-vs-perplexity-entreprise-pro,https://nexos.ai/blog/nexos-ai-vs-portkey-ai
-HockeyStack;hockeystack.com;Series A;unqualified;"Found 3 comparison page(s) on hockeystack.com.
+https://nexos.ai/blog/the-ai-gold-rush","https://nexos.ai/blog/nexos-ai-vs-unify-ai,https://nexos.ai/blog/nexos-ai-vs-perplexity-entreprise-pro,https://nexos.ai/blog/nexos-ai-vs-portkey-ai"
+HockeyStack,hockeystack.com,Series A,unqualified,"Found 3 comparison page(s) on hockeystack.com.
 
 [match] https://www.hockeystack.com/blog-posts/dreamdata-vs-hockeystack-complete-enterprise-comparison
 Compares against: Dreamdata
@@ -1644,8 +1644,8 @@ https://www.hockeystack.com/blog-posts/infinigrow-alternatives-competitors
 https://www.hockeystack.com/blog-posts/calibermind-alternatives-competitors
 https://www.hockeystack.com/blog-posts/dreamdata-alternatives-competitors
 https://www.hockeystack.com/blog-posts/bizible-alternatives-competitors
-https://www.hockeystack.com/blog-posts/usergems-alternatives";https://www.hockeystack.com/blog-posts/6sense-vs-common-room-vs-hockeystack,https://www.hockeystack.com/blog-posts/dreamdata-vs-hockeystack-complete-enterprise-comparison,https://www.hockeystack.com/blog-posts/calibermind-vs-bizible-vs-hockeystack
-Customer.io;customer.io;Series A;unqualified;"Found 3 comparison page(s) on customer.io.
+https://www.hockeystack.com/blog-posts/usergems-alternatives","https://www.hockeystack.com/blog-posts/6sense-vs-common-room-vs-hockeystack,https://www.hockeystack.com/blog-posts/dreamdata-vs-hockeystack-complete-enterprise-comparison,https://www.hockeystack.com/blog-posts/calibermind-vs-bizible-vs-hockeystack"
+Customer.io,customer.io,Series A,unqualified,"Found 3 comparison page(s) on customer.io.
 
 [match] https://customer.io/learn/lifecycle-marketing/salesforce-vs-marketo
 Compares against: Salesforce Marketing Cloud, Marketo, Customer.io
@@ -1666,8 +1666,8 @@ https://customer.io/competitors
 https://customer.io/learn/tag/competitors
 https://docs.customer.io/journeys/run-reports
 https://customer.io/learn/announcements/meet-jason-lyman-cmo
-https://customer.io/learn/product-led-growth/how-ai-is-shaping-the-future-of-software";https://customer.io/learn/lifecycle-marketing/salesforce-vs-marketo,https://www.try.customer.io/competitors/vs-hubspot,https://customer.io/learn/lifecycle-marketing/hubspot-vs-marketo
-BridgeCare;getbridgecare.com;Series A;qualified;"Analyzed 9 page(s) on getbridgecare.com. No comparison pages found.
+https://customer.io/learn/product-led-growth/how-ai-is-shaping-the-future-of-software","https://customer.io/learn/lifecycle-marketing/salesforce-vs-marketo,https://www.try.customer.io/competitors/vs-hubspot,https://customer.io/learn/lifecycle-marketing/hubspot-vs-marketo"
+BridgeCare,getbridgecare.com,Series A,qualified,"Analyzed 9 page(s) on getbridgecare.com. No comparison pages found.
 
 [no-match] https://getbridgecare.com/blog/ece-tech-trends-saas-vs-custom-build
 The page discusses trends in early care and education technology, specifically comparing SaaS and custom builds, but does not explicitly compare 'BridgeCare' against any specific competitors.
@@ -1697,8 +1697,8 @@ The page does not explicitly compare 'BridgeCare' against any specific competito
 The page discusses the partnership between United Way of Connecticut and BridgeCare but does not explicitly compare BridgeCare to any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://getbridgecare.com";
-Xata.io;xata.io;Series A;unqualified;"Found 3 comparison page(s) on xata.io.
+https://getbridgecare.com",
+Xata.io,xata.io,Series A,unqualified,"Found 3 comparison page(s) on xata.io.
 
 [match] https://xata.io/blog/neon-vs-supabase-vs-xata-postgres-branching-part-2
 Compares against: Neon, Supabase
@@ -1719,8 +1719,8 @@ https://xata.io/blog/website-deep-dive
 https://xata.io/blog/going-down-the-rabbit-hole-of-postgres-18-features
 https://xata.io/blog/are-ai-agents-the-future-of-observability
 https://xata.io/blog/reaction-to-the-planetscale-postgresql-benchmarks
-https://xata.io/blog/case-study-trackstack";https://xata.io/blog/neon-vs-supabase-vs-xata-postgres-branching-part-1,https://xata.io/blog/neon-vs-supabase-vs-xata-postgres-branching-part-2,https://xata.io/blog/postgres-full-text-search-postgres-vs-elasticsearch
-Leapsome;leapsome.com;Series A;unqualified;"Found 2 comparison page(s) on leapsome.com.
+https://xata.io/blog/case-study-trackstack","https://xata.io/blog/neon-vs-supabase-vs-xata-postgres-branching-part-1,https://xata.io/blog/neon-vs-supabase-vs-xata-postgres-branching-part-2,https://xata.io/blog/postgres-full-text-search-postgres-vs-elasticsearch"
+Leapsome,leapsome.com,Series A,unqualified,"Found 2 comparison page(s) on leapsome.com.
 
 [no-match] https://www.leapsome.com/hris-discovery/leapsome-vs-others
 The page explicitly compares Leapsome against legacy tools, highlighting its advantages and features in direct comparison.
@@ -1740,8 +1740,8 @@ https://www.leapsome.com
 https://www.leapsome.com/competitor-new/honestly
 https://www.leapsome.com/blog/choosing-the-right-hr-software
 https://www.leapsome.com/competitor-new/cooleaf
-https://www.leapsome.com/competitor-new/lattice";https://www.leapsome.com/comparisons/performance-management-tools,https://www.leapsome.com/comparisons/employee-engagement-software
-ProsperOps;prosperops.com;Series A;unqualified;"Found 1 comparison page(s) on prosperops.com.
+https://www.leapsome.com/competitor-new/lattice","https://www.leapsome.com/comparisons/performance-management-tools,https://www.leapsome.com/comparisons/employee-engagement-software"
+ProsperOps,prosperops.com,Series A,unqualified,"Found 1 comparison page(s) on prosperops.com.
 
 [no-match] https://www.prosperops.com/blog/horizontal-scaling-vs-vertical-scaling
 The page discusses horizontal and vertical scaling but does not explicitly compare ProsperOps against any competitors.
@@ -1766,8 +1766,8 @@ The page discusses various cloud cost management tools, including ProsperOps, bu
 https://www.prosperops.com/blog/google-cloud-cost-optimization-tools
 https://www.prosperops.com/blog/apptio-cloudability-competitors
 https://www.prosperops.com/blog/cloudcheckr-competitors
-http://prosperops.com";https://www.prosperops.com/compare
-Barti;barti.com;Series A;qualified;"Analyzed 9 page(s) on barti.com. No comparison pages found.
+http://prosperops.com",https://www.prosperops.com/compare
+Barti,barti.com,Series A,qualified,"Analyzed 9 page(s) on barti.com. No comparison pages found.
 
 [no-match] https://support.barti.com/hc/en-us/sections/24590161734675-Barti-Practice-Management
 The content provided does not explicitly compare 'Barti' against any competitors, nor does it serve as a dedicated comparison page.
@@ -1797,8 +1797,8 @@ The content does not explicitly compare 'Barti' against any competitors, nor is 
 The page is a Master Services Agreement outlining terms and conditions for Barti's services and does not explicitly compare Barti against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.barti.com";
-Traefik Labs;traefik.io;Series A;unqualified;"Found 3 comparison page(s) on traefik.io.
+https://www.barti.com",
+Traefik Labs,traefik.io,Series A,unqualified,"Found 3 comparison page(s) on traefik.io.
 
 [match] https://traefik.io/compare/traefik-vs-ambassador-edge-stack
 Compares against: Ambassador Edge Stack
@@ -1819,8 +1819,8 @@ https://traefik.io/blog/traefik-labs-unveils-application-intelligence-platform-s
 https://doc.traefik.io/traefik/features
 https://traefik.io/search
 https://traefik.io/blog/container-orchestrators-in-2022-kubernetes-and-its-rivals
-https://traefik.io/pricing";https://traefik.io/compare/traefik-vs-nginx,https://traefik.io/compare/traefik-vs-ambassador-edge-stack,https://traefik.io/blog/spring-cloud-gateway-vs-traefik
-Files.com;files.com;Series A;qualified;"Analyzed 8 page(s) on files.com. No comparison pages found.
+https://traefik.io/pricing","https://traefik.io/compare/traefik-vs-nginx,https://traefik.io/compare/traefik-vs-ambassador-edge-stack,https://traefik.io/blog/spring-cloud-gateway-vs-traefik"
+Files.com,files.com,Series A,qualified,"Analyzed 8 page(s) on files.com. No comparison pages found.
 
 [no-match] https://www.files.com/blog/files-com-fall-2021-g2-leader-mft-ftp
 The page discusses Files.com being rated a leader in various categories but does not explicitly compare it against specific competitors.
@@ -1848,8 +1848,8 @@ The page discusses the features of Files.com and does not explicitly compare it 
 
 [skipped] 2 candidate(s) not checked
 https://www.files.com
-https://mover.files.com";
-P0 Security;p0security.org;Series A;unqualified;"Found 1 comparison page(s) on p0.dev.
+https://mover.files.com",
+P0 Security,p0security.org,Series A,unqualified,"Found 1 comparison page(s) on p0.dev.
 
 [no-match] https://www.p0.dev/why-p0
 The page discusses the features and vision of P0 Security but does not explicitly compare it against any competitors.
@@ -1874,8 +1874,8 @@ Validation error: Scraping or analysis failed
 http://p0.dev
 https://www.p0.dev/blog/gcp-policy-int
 https://www.p0.dev/legal/subscription-terms
-https://www.p0.dev/blog/case-study-why-enterprises-are-upgrading-to-next-gen-pam-for-cloud-security";https://www.p0.dev/campaign/entra-eol
-(Re)vive;byrevive.com;Series A;qualified;"Analyzed 8 page(s) on byrevive.com. No comparison pages found.
+https://www.p0.dev/blog/case-study-why-enterprises-are-upgrading-to-next-gen-pam-for-cloud-security",https://www.p0.dev/campaign/entra-eol
+(Re)vive,byrevive.com,Series A,qualified,"Analyzed 8 page(s) on byrevive.com. No comparison pages found.
 
 [no-match] https://www.byrevive.com/documents/2024-h1-esg
 The page is a contact form for users to discuss damages and deadstock, and does not explicitly compare (Re)vive against any competitors.
@@ -1903,8 +1903,8 @@ The page is a product page for the Quince Premium Down Alternative Pillow and do
 
 [skipped] 2 candidate(s) not checked
 https://shop.byrevive.com
-http://byrevive.com";
-Shipium;shipium.com;Series A;unqualified;"Found 1 comparison page(s) on shipium.com.
+http://byrevive.com",
+Shipium,shipium.com,Series A,unqualified,"Found 1 comparison page(s) on shipium.com.
 
 [no-match] https://www.shipium.com/blog/going-from-what-if-to-whats-next-with-shipium-simulation
 The page discusses Shipium's Simulation tool and its features but does not explicitly compare Shipium against any competitors.
@@ -1923,8 +1923,8 @@ https://www.shipium.com/solutions/international-shipping
 https://www.shipium.com
 https://www.shipium.com/blueyonder
 https://hub.shipium.com/solutions/shipping-rate-shopping-software
-https://www.shipium.com/customers/atomix";https://hub.shipium.com/content/best-3pl-software
-Muck Rack;muckrack.com;Series A;unqualified;"Found 1 comparison page(s) on muckrack.com.
+https://www.shipium.com/customers/atomix",https://hub.shipium.com/content/best-3pl-software
+Muck Rack,muckrack.com,Series A,unqualified,"Found 1 comparison page(s) on muckrack.com.
 
 [no-match] https://muckrack.com/media-outlet/alternativeswatch
 The page does not explicitly compare 'Muck Rack' against any competitors. It discusses various companies and their activities in the investment sector without making direct comparisons.
@@ -1949,8 +1949,8 @@ The content provided discusses cookie preferences and privacy settings, with no 
 https://muckrack.com
 https://muckrack.com/media-outlet/getalternative
 https://muckrack.com/blog/2024/10/10/share-of-voice-common-mistakes
-https://muckrack.com/case-studies/the-brand-guild";https://muckrack.com/cision-alternative
-Akuity;akuity.io;Series A;unqualified;"Found 2 comparison page(s) on akuity.io.
+https://muckrack.com/case-studies/the-brand-guild",https://muckrack.com/cision-alternative
+Akuity,akuity.io,Series A,unqualified,"Found 2 comparison page(s) on akuity.io.
 
 [match] https://akuity.io/akuity-vs-eks-argo-cd
 Compares against: Amazon EKS for Argo CD
@@ -1970,8 +1970,8 @@ https://akuity.io/blog/argo-cd-architectures-explained
 https://akuity.io/blog/argo-cd-flux-comparison
 https://akuity.io/blog/automating-blue-green-and-canary-deployments-with-argo-rollouts
 https://akuity.io/blog/argo-cd-for-flux-users
-https://akuity.io/terms-of-service";https://landing.akuity.io/argo-cd-vs-flux-a-detailed-comparison,https://akuity.io/akuity-vs-eks-argo-cd
-Assembly;assembly.com;Series A;unqualified;"Found 3 comparison page(s) on assembly.com.
+https://akuity.io/terms-of-service","https://landing.akuity.io/argo-cd-vs-flux-a-detailed-comparison,https://akuity.io/akuity-vs-eks-argo-cd"
+Assembly,assembly.com,Series A,unqualified,"Found 3 comparison page(s) on assembly.com.
 
 [match] https://assembly.com/comparison/assembly-vs-moxo-alternative
 Compares against: Moxo, Suitedash, HoneyBook, SmartVault
@@ -1992,8 +1992,8 @@ https://assembly.com/blog/clinked-alternatives
 http://assembly.com
 https://assembly.com/blog/moxo-alternatives
 https://assembly.com/blog/client-portal-software
-https://assembly.com/blog/service-provider-pro-alternatives";https://assembly.com/comparison/assembly-vs-suitedash-alternative,https://assembly.com/comparison/assembly-vs-moxo-alternative,https://assembly.com/comparison/assembly-vs-karbon-alternative
-Quindar;quindar.space;Series A;qualified;"Analyzed 9 page(s) on quindar.space. No comparison pages found.
+https://assembly.com/blog/service-provider-pro-alternatives","https://assembly.com/comparison/assembly-vs-suitedash-alternative,https://assembly.com/comparison/assembly-vs-moxo-alternative,https://assembly.com/comparison/assembly-vs-karbon-alternative"
+Quindar,quindar.space,Series A,qualified,"Analyzed 9 page(s) on quindar.space. No comparison pages found.
 
 [no-match] https://quindar.space/blog-article/the-quindar-sla
 The page discusses Quindar's services and the benefits of SaaS solutions for spacecraft operations but does not explicitly compare Quindar against any specific competitors.
@@ -2023,8 +2023,8 @@ The page discusses satellite operations and mission management but does not expl
 The page does not compare Quindar against any specific competitors; it focuses on promoting Quindar's offerings and advantages without mentioning other products.
 
 [skipped] 1 candidate(s) not checked
-http://quindar.space";
-Dotfile;dotfile.com;Series A;qualified;"Analyzed 9 page(s) on dotfile.com. No comparison pages found.
+http://quindar.space",
+Dotfile,dotfile.com,Series A,qualified,"Analyzed 9 page(s) on dotfile.com. No comparison pages found.
 
 [no-match] http://www.dotfile.com/blog-articles/kyb-vs-kyc-differences-overlaps-why-both-matter
 The page discusses KYC and KYB processes but does not explicitly compare 'Dotfile' against any competitors.
@@ -2054,12 +2054,12 @@ The page discusses updates to the Dotfile platform but does not explicitly compa
 The page does not explicitly compare Dotfile against any competitors; it primarily discusses Dotfile's features and benefits without making direct comparisons.
 
 [skipped] 1 candidate(s) not checked
-http://dotfile.com";
-The Public Health Company;phc.health;Series A;qualified;"Checked phc.health but found no comparison pages.
+http://dotfile.com",
+The Public Health Company,phc.health,Series A,qualified,"Checked phc.health but found no comparison pages.
 
 [skipped] 1 candidate(s) not checked
-http://phc.health";
-Runway Financial;runway.com;Series A;unqualified;"Found 3 comparison page(s) on runway.com.
+http://phc.health",
+Runway Financial,runway.com,Series A,unqualified,"Found 3 comparison page(s) on runway.com.
 
 [match] https://runway.com/blog/best-modern-fpa-software-runway-vs-abacum-vs-mosaic-vs-causal
 Compares against: Abacum, Mosaic, Causal
@@ -2080,8 +2080,8 @@ https://runway.com/blog/the-best-forecasting-tools-for-modern-finance-teams
 https://runway.com/blog/the-best-financial-reporting-software-for-finance-teams-that-want-to-move-faster
 https://runway.com/llm-info
 https://runway.com
-https://runway.com/blog/b2b-saas-ai-startup-investment-criteria-5-key-questions-investors-ask";https://runway.com/blog/modern-fpa-software-comparison-runway-vs-vena-vs-planful-vs-jirav-vs-tigereye,https://runway.com/blog/best-modern-fpa-software-runway-vs-abacum-vs-mosaic-vs-causal,https://runway.com/blog/best-modern-fpa-software-runway-vs-liveflow-vs-datarails
-PriceLabs;hello.pricelabs.co;Series A;qualified;"Analyzed 9 page(s) on hello.pricelabs.co. No comparison pages found.
+https://runway.com/blog/b2b-saas-ai-startup-investment-criteria-5-key-questions-investors-ask","https://runway.com/blog/modern-fpa-software-comparison-runway-vs-vena-vs-planful-vs-jirav-vs-tigereye,https://runway.com/blog/best-modern-fpa-software-runway-vs-abacum-vs-mosaic-vs-causal,https://runway.com/blog/best-modern-fpa-software-runway-vs-liveflow-vs-datarails"
+PriceLabs,hello.pricelabs.co,Series A,qualified,"Analyzed 9 page(s) on hello.pricelabs.co. No comparison pages found.
 
 [no-match] https://hello.pricelabs.co/unveiling-the-improved-hotel-price-tracker-and-exploring-effective-competitor-benchmarking-in-pricelabs
 The page discusses the features of PriceLabs and benchmarking techniques but does not explicitly compare PriceLabs to any specific competitors.
@@ -2111,8 +2111,8 @@ The page discusses features of PriceLabs and how property managers can use them,
 The page discusses the importance of multi-OTA rate automation and mentions PriceLabs, but it does not explicitly compare PriceLabs against any competitors.
 
 [skipped] 1 candidate(s) not checked
-https://hello.pricelabs.co";
-Cledara;cledara.com;Series A;unqualified;"Found 3 comparison page(s) on cledara.com.
+https://hello.pricelabs.co",
+Cledara,cledara.com,Series A,unqualified,"Found 3 comparison page(s) on cledara.com.
 
 [match] https://www.cledara.com/blog/vertice-vs-cledara
 Compares against: Vertice
@@ -2133,8 +2133,8 @@ https://www.cledara.com/blog/8-best-saas-management-platforms-to-manage-your-sof
 https://www.cledara.com/blog/8-best-productiv-competitors
 http://cledara.com
 https://www.cledara.com/blog/bettercloud-competitors
-https://www.cledara.com/blog/payment-saas-comparison";https://www.cledara.com/blog/vertice-vs-cledara,https://www.cledara.com/blog/pleo-vs-cledara,https://www.cledara.com/blog/zluri-vs-cledara
-SGNL.AI;sgnl.ai;Series A;unqualified;"Found 1 comparison page(s) on sgnl.ai.
+https://www.cledara.com/blog/payment-saas-comparison","https://www.cledara.com/blog/vertice-vs-cledara,https://www.cledara.com/blog/pleo-vs-cledara,https://www.cledara.com/blog/zluri-vs-cledara"
+SGNL.AI,sgnl.ai,Series A,unqualified,"Found 1 comparison page(s) on sgnl.ai.
 
 [match] https://sgnl.ai/2025/05/jita-vs-jitp-for-zsp
 Compares against: AWS
@@ -2153,8 +2153,8 @@ https://sgnl.ai/search
 http://sgnl.ai
 https://sgnl.ai/2024/07/how-people.ai-has-future-proofed-data-security-with-zero-standing-privilege
 https://sgnl.ai/2025/05/future-proofing-cloud-security-preparing-for-emerging-threats-in-identity-management
-https://sgnl.ai/product/notes/1.62";https://sgnl.ai/2025/05/jita-vs-jitp-for-zsp
-Right-Hand Cybersecurity;right-hand.ai;Series A;unqualified;"Found 3 comparison page(s) on right-hand.ai.
+https://sgnl.ai/product/notes/1.62",https://sgnl.ai/2025/05/jita-vs-jitp-for-zsp
+Right-Hand Cybersecurity,right-hand.ai,Series A,unqualified,"Found 3 comparison page(s) on right-hand.ai.
 
 [match] https://right-hand.ai/right-hand-cybersecurity-vs-proofpoint-2025
 Compares against: Proofpoint
@@ -2175,8 +2175,8 @@ https://right-hand.ai/best-knowbe4-alternatives-in-2026-right-hand-cybersecurity
 https://right-hand.ai/best-ninjio-alternatives-in-2025-right-hand-cybersecurity-hoxhunt-knowbe4-living-security
 https://right-hand.ai/right-hand-cybersecurity-knowbe4-alternative-2026
 https://right-hand.ai/blog/ally-by-right-hand-blog
-https://right-hand.ai/blog/cybersecurity-trends-2025";https://right-hand.ai/right-hand-cybersecurity-vs-ninjio-2025,https://right-hand.ai/right-hand-cybersecurity-vs-proofpoint-2025,https://right-hand.ai/right-hand-cybersecurity-vs-sosafe-2025
-GLIDER.ai;glider.ai;Series A;unqualified;"Found 1 comparison page(s) on glider.ai.
+https://right-hand.ai/blog/cybersecurity-trends-2025","https://right-hand.ai/right-hand-cybersecurity-vs-ninjio-2025,https://right-hand.ai/right-hand-cybersecurity-vs-proofpoint-2025,https://right-hand.ai/right-hand-cybersecurity-vs-sosafe-2025"
+GLIDER.ai,glider.ai,Series A,unqualified,"Found 1 comparison page(s) on glider.ai.
 
 [no-match] https://glider.ai/blog/proctoring-ai-based-proctoring-vs-human-proctor
 The page discusses AI-based proctoring and human proctoring but does not explicitly compare Glider.ai against any specific competitors.
@@ -2201,8 +2201,8 @@ The page explicitly compares Glider AI against HackerRank, highlighting differen
 https://glider.ai
 https://glider.ai/pwc-fiercest-competitor-3
 https://glider.ai/blog/ai-in-skill-assessments-dos-and-donts
-https://glider.ai/product-comparisons-2";https://glider.ai/hackerrank-alternative-2
-Metafoodx;metafoodx.com;Series A;qualified;"Analyzed 8 page(s) on metafoodx.com. No comparison pages found.
+https://glider.ai/product-comparisons-2",https://glider.ai/hackerrank-alternative-2
+Metafoodx,metafoodx.com,Series A,qualified,"Analyzed 8 page(s) on metafoodx.com. No comparison pages found.
 
 [no-match] https://www.metafoodx.com/aiincentiveawardee
 The page discusses Metafoodx's grant award and its mission but does not explicitly compare Metafoodx to any competitors.
@@ -2229,8 +2229,8 @@ The page discusses Metafoodx and its technology but does not explicitly compare 
 The page is a privacy policy and does not contain any comparisons of 'Metafoodx' against other companies or products.
 
 [skipped] 1 candidate(s) not checked
-http://metafoodx.com";
-HealthBird;healthbird.com;Series A;qualified;"Analyzed 9 page(s) on healthbird.com. No comparison pages found.
+http://metafoodx.com",
+HealthBird,healthbird.com,Series A,qualified,"Analyzed 9 page(s) on healthbird.com. No comparison pages found.
 
 [no-match] https://www.healthbird.com/blog/is-healthbird-worth-investing-in-you-dont-want-to-miss-this
 The page discusses HealthBird's unique features and advantages but does not explicitly compare it to any specific competitors.
@@ -2260,8 +2260,8 @@ The page discusses HealthBird and its services but does not explicitly compare H
 The page discusses health insurance and how HealthBird can assist in finding affordable plans, but it does not explicitly compare HealthBird to any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://www.healthbird.com";
-WhyLabs;whylabs.ai;Series A;qualified;"Analyzed 9 page(s) on whylabs.ai. No comparison pages found.
+https://www.healthbird.com",
+WhyLabs,whylabs.ai,Series A,qualified,"Analyzed 9 page(s) on whylabs.ai. No comparison pages found.
 
 [no-match] https://docs.whylabs.ai/docs/whylabs-control-center
 The page discusses the features and capabilities of the WhyLabs AI Control Center but does not explicitly compare WhyLabs against any competitors.
@@ -2291,8 +2291,8 @@ The content discusses various security vulnerabilities and how WhyLabs addresses
 The page discusses the features and advantages of WhyLabs and whylogs but does not explicitly compare WhyLabs against any specific competitors.
 
 [skipped] 1 candidate(s) not checked
-https://whylabs.ai";
-Sequel.io;sequel.io;Series A;unqualified;"Found 2 comparison page(s) on sequel.io.
+https://whylabs.ai",
+Sequel.io,sequel.io,Series A,unqualified,"Found 2 comparison page(s) on sequel.io.
 
 [no-match] https://sequel.io/sequel-x-wix
 The page discusses the capabilities of Sequel and its integration with Wix but does not explicitly compare Sequel to any competitors.
@@ -2312,8 +2312,8 @@ https://sequel.io/on24-competitors
 https://sequel.io/livestream-platforms-live-virtual-events
 https://sequel.io/12-best-video-marketing-tools-marketers-need
 https://sequel.io/cmo-series/hamza-sbaa
-https://sequel.io/how-to-choose-a-webinar-platform";https://sequel.io/accuracy-and-integrity-our-response-to-goldcasts-misrepresentations-about-sequel-io,https://sequel.io/top-10-webinar-solutions-for-demand-generation
-SecurityPal;securitypalhq.com;Series A;unqualified;"Found 1 comparison page(s) on securitypalhq.com.
+https://sequel.io/how-to-choose-a-webinar-platform","https://sequel.io/accuracy-and-integrity-our-response-to-goldcasts-misrepresentations-about-sequel-io,https://sequel.io/top-10-webinar-solutions-for-demand-generation"
+SecurityPal,securitypalhq.com,Series A,unqualified,"Found 1 comparison page(s) on securitypalhq.com.
 
 [no-match] https://www.securitypalhq.com/blog/securitypal-vs-in-house-security-review-teams
 The page explicitly compares SecurityPal against in-house security review workflows, making it a dedicated comparison page.
@@ -2332,8 +2332,8 @@ https://www.securitypalhq.com/blog/trust-center-security-grc-showcase
 https://www.securitypalhq.com/blog/inc-2025-fastest-growing-companies
 https://www.securitypalhq.com/blog/internal-questionnaire-teams
 https://www.securitypalhq.com/case-studies/productiv-saves-time-and-builds-customer-trust-with-securitypal
-https://www.securitypalhq.com/careers";https://www.securitypalhq.com/blog/best-ai-security-questionnaire-providers
-Rattle;gorattle.com;Series A;unqualified;"Found 1 comparison page(s) on gorattle.com.
+https://www.securitypalhq.com/careers",https://www.securitypalhq.com/blog/best-ai-security-questionnaire-providers
+Rattle,gorattle.com,Series A,unqualified,"Found 1 comparison page(s) on gorattle.com.
 
 [match] https://www.gorattle.com/rattle-vs-troops
 Compares against: Troops
@@ -2352,8 +2352,8 @@ https://www.gorattle.com/blog/best-revenue-operations-software
 https://www.gorattle.com/blog/deal-desk-software
 https://www.gorattle.com/the-playbook
 https://www.gorattle.com/blog/sales-productivity-tools
-https://www.gorattle.com/blog/ai-revops-competitive-advantage";https://www.gorattle.com/rattle-vs-troops
-Zonos;zonos.com;Series A;unqualified;"Found 1 comparison page(s) on zonos.com.
+https://www.gorattle.com/blog/ai-revops-competitive-advantage",https://www.gorattle.com/rattle-vs-troops
+Zonos,zonos.com,Series A,unqualified,"Found 1 comparison page(s) on zonos.com.
 
 [match] https://zonos.com/compare/zonos-vs-swap
 Compares against: Swap
@@ -2372,4 +2372,4 @@ https://zonos.com/logistics/resellers
 https://zonos.com/docs/postal/tools-for-shippers/dashboard-lite
 https://zonos.com
 https://zonos.com/blog/the-evolution-of-classify
-https://zonos.com/pricing";https://zonos.com/compare/zonos-vs-swap
+https://zonos.com/pricing",https://zonos.com/compare/zonos-vs-swap
