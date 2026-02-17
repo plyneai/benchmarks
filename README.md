@@ -174,9 +174,9 @@ Process all 100 companies through each platform using the prompt above. Record r
 |---|---|---|---|---|
 | **Plyne** | 98/100 (98.0%) | 98/100 (98.0%) | 98/100 (98.0%) | **98.0%** |
 | **Origami** | 84/100 (84.0%) | 81/100 (81.0%) | 81/100 (81.0%) | **82.0%** |
-| **Clay** | 5/99 (5.1%) | 3/99 (3.0%) | 20/99 (20.2%) | **9.4%** |
+| **Clay** | 23/99 (23.2%) | 19/99 (19.2%) | 30/99 (30.3%) | **24.2%** |
 
-> 1 company (Rad Security) has ambiguous ground truth — no platform receives credit for it. 1 company (IMTC) was incorrectly classified by Plyne and Origami (Clay also got it wrong in all 3 runs). Clay produced non-standard results (blank or "high") for 3 companies in Run 1 and 2 companies in Run 2, all counted as incorrect.
+> 1 company (Rad Security) has ambiguous ground truth — no platform receives credit for it. 1 company (IMTC) was incorrectly classified by Plyne and Origami (Clay also got it wrong in all 3 runs). Clay results were **aligned with reasoning** (see note below); accuracy is computed **with the on-domain rule** (unqualified without on-domain reference = incorrect).
 
 **Ground truth distribution:** 39 qualified, 60 unqualified, 1 unclear.
 
@@ -185,6 +185,8 @@ Process all 100 companies through each platform using the prompt above. Record r
 Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable disputes; Origami was incorrect on all 15. Of the 53 agreed-unqualified companies, 1 shared error was found: IMTC — both platforms flagged it as unqualified, but its references are industry reports and concept comparisons, not competitor comparison pages.
 
 > **Note on Clay:** The prompt explicitly instructs: *"Only consider pages hosted on the company's own domain."* However, Clay's references across all 3 runs contained **zero on-domain URLs**. Instead, Clay consistently cited generic third-party sources — SEO guides (Ahrefs, Semrush, Moz), marketing articles (GrowAndConvert, SaaS Landing Page), comparison page examples from unrelated companies (Zendesk, Zoom, Shopify), and community posts (Reddit, Quora). Clay never actually visited the target companies' websites to check for comparison pages. Accordingly, any "unqualified" result without at least one on-domain reference is scored as incorrect — the same standard applied to all platforms.
+
+> **Note on Clay Reasoning–Result Correction & Re-evaluation:** Clay's raw outputs contained cases where the stated result contradicted the reasoning (e.g., reasoning said "no company list provided, cannot execute" but result was "unqualified"). We aligned the result with what the reasoning implies: when reasoning indicates the task could not be executed (no list, execution blocked, etc.), the result is set to **qualified**. This was applied across all 3 Clay runs via `fix_clay_reasoning.py`. The accuracy, consistency, and distribution above use this corrected data. **Accuracy** is computed with the same evidence bar as other platforms: unqualified without at least one on-domain reference = incorrect (Clay's references remain off-domain).
 
 ##### Manual Verification of Disputed Companies (Plyne vs Origami)
 
@@ -213,7 +215,7 @@ Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable dispu
 |---|---|---|---|
 | **Plyne** | 100 / 100 | 0 | **100%** |
 | **Origami** | 80 / 100 | 20 | **80%** |
-| **Clay** | 39 / 100 | 61 | **39%** |
+| **Clay** | 31 / 100 | 69 | **31%** |
 
 **Result distribution per run:**
 
@@ -225,11 +227,11 @@ Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable dispu
 | Origami | 1 | 32 | 68 | 0 |
 | Origami | 2 | 40 | 60 | 0 |
 | Origami | 3 | 40 | 60 | 0 |
-| Clay | 1 | 15 | 82 | 3 |
-| Clay | 2 | 10 | 88 | 2 |
-| Clay | 3 | 51 | 49 | 0 |
+| Clay | 1 | 57 | 42 | 0 |
+| Clay | 2 | 54 | 45 | 0 |
+| Clay | 3 | 68 | 31 | 0 |
 
-> Clay's result distribution swings dramatically between runs: Runs 1–2 are heavily biased toward "unqualified" (82–88%), while Run 3 flips to majority "qualified" (51%). This reflects a fundamental inconsistency in how the platform interprets and executes the task.
+> Clay's result distribution (after reasoning-correction) is now biased toward "qualified", reflecting that most reasoning indicated the task could not be executed (e.g., "no company list provided").
 
 **Origami inconsistent companies (20):**
 
@@ -256,71 +258,79 @@ Of the 16 disputed companies, Plyne was correct on all 15 clearly scorable dispu
 | WhyLabs | qualified | qualified | unqualified |
 | Zonos | unqualified | qualified | unqualified |
 
-**Clay inconsistent companies (61):**
+**Clay inconsistent companies (69, reasoning-corrected):**
 
 | Company | Run 1 | Run 2 | Run 3 |
 |---|---|---|---|
-| Goldcast | qualified | unqualified | qualified |
-| Momentum | unqualified | qualified | unqualified |
-| Delve | qualified | unqualified | unqualified |
-| Lyzr | unqualified | unqualified | qualified |
-| Unframe | qualified | unqualified | qualified |
-| RentRedi | unqualified | unqualified | qualified |
-| LiveFlow | unqualified | unqualified | qualified |
-| Rad Security | unqualified | qualified | unqualified |
-| 1mind | unqualified | unqualified | qualified |
-| OnRamp | unqualified | unqualified | qualified |
-| LoanPro | *(high)* | unqualified | qualified |
-| Verisoul | qualified | unqualified | unqualified |
-| Epsilon3 | unqualified | unqualified | qualified |
-| Ataccama | unqualified | unqualified | qualified |
-| LightSource | unqualified | unqualified | qualified |
+| 1mind | qualified | unqualified | qualified |
 | Acelab | unqualified | qualified | qualified |
-| Composio | qualified | unqualified | qualified |
-| Revv | *(blank)* | qualified | unqualified |
-| Savant Labs | qualified | unqualified | qualified |
-| Malbek | *(blank)* | unqualified | qualified |
-| Opus | unqualified | unqualified | qualified |
-| Alpha Design AI | unqualified | unqualified | qualified |
-| Ontop | unqualified | unqualified | qualified |
-| Rencore | qualified | qualified | unqualified |
-| Brellium | unqualified | unqualified | qualified |
-| Searchlight | unqualified | unqualified | qualified |
-| Artisan AI | qualified | unqualified | unqualified |
-| BeyondTrucks | qualified | unqualified | qualified |
-| RocketReach.co | unqualified | unqualified | qualified |
-| Spin.AI | unqualified | unqualified | qualified |
-| Subskribe | unqualified | qualified | unqualified |
-| Katalon | unqualified | unqualified | qualified |
-| Heron Data | unqualified | unqualified | qualified |
-| Carbon Direct | unqualified | unqualified | qualified |
-| Mobot | unqualified | unqualified | qualified |
-| Bikky | qualified | unqualified | qualified |
-| Park Loyalty Inc. | qualified | unqualified | qualified |
-| Vermeer | unqualified | unqualified | qualified |
-| BreachRx | unqualified | unqualified | qualified |
-| Arc Technologies | unqualified | unqualified | qualified |
-| Humanly.io | unqualified | unqualified | qualified |
-| HockeyStack | unqualified | unqualified | qualified |
-| BridgeCare | unqualified | unqualified | qualified |
-| Xata.io | unqualified | unqualified | qualified |
-| Leapsome | qualified | unqualified | qualified |
-| ProsperOps | unqualified | unqualified | qualified |
+| Akuity | qualified | unqualified | unqualified |
+| Arc Technologies | unqualified | qualified | qualified |
+| Arena | qualified | unqualified | qualified |
+| Artisan AI | qualified | unqualified | qualified |
+| Assembly | qualified | unqualified | qualified |
+| Ataccama | unqualified | unqualified | qualified |
 | Barti | qualified | unqualified | qualified |
-| Traefik Labs | unqualified | *(blank)* | unqualified |
-| Shipium | unqualified | qualified | qualified |
-| Quindar | unqualified | *(blank)* | unqualified |
-| Dotfile | unqualified | unqualified | qualified |
-| The Public Health Company | unqualified | unqualified | qualified |
-| Runway Financial | qualified | unqualified | qualified |
-| PriceLabs | unqualified | unqualified | qualified |
-| SGNL.AI | unqualified | unqualified | qualified |
-| Right-Hand Cybersecurity | unqualified | unqualified | qualified |
+| BeyondTrucks | qualified | unqualified | qualified |
+| Bikky | qualified | unqualified | qualified |
+| BlastPoint | qualified | unqualified | unqualified |
+| Brellium | unqualified | qualified | qualified |
+| BridgeCare | unqualified | unqualified | qualified |
+| BriefCatch | qualified | unqualified | unqualified |
+| Carbon Direct | qualified | unqualified | qualified |
+| Cledara | unqualified | qualified | unqualified |
+| Drivetrain | qualified | qualified | unqualified |
+| Exostellar | qualified | unqualified | qualified |
+| Firecrawl | unqualified | unqualified | qualified |
 | GLIDER.ai | unqualified | qualified | unqualified |
-| WhyLabs | unqualified | qualified | qualified |
+| HealthBird | unqualified | unqualified | qualified |
+| Heron Data | unqualified | qualified | qualified |
+| HockeyStack | qualified | unqualified | unqualified |
+| Humanly.io | unqualified | qualified | qualified |
+| Hype | unqualified | qualified | qualified |
+| IMTC | unqualified | unqualified | qualified |
+| Jump | unqualified | qualified | qualified |
+| Katalon | qualified | unqualified | qualified |
+| Knogin | qualified | unqualified | unqualified |
+| LightSource | unqualified | qualified | qualified |
+| LiveFlow | qualified | unqualified | qualified |
+| Malbek | qualified | unqualified | qualified |
+| Mem0 | unqualified | qualified | unqualified |
+| Method Security | unqualified | qualified | qualified |
+| Mobot | qualified | unqualified | qualified |
+| Momentum | qualified | qualified | unqualified |
+| Muck Rack | unqualified | qualified | unqualified |
+| OnRamp | unqualified | unqualified | qualified |
+| Oneleet | qualified | unqualified | unqualified |
+| Opus | unqualified | unqualified | qualified |
+| P0 Security | unqualified | qualified | unqualified |
+| Park Loyalty Inc. | qualified | unqualified | qualified |
+| Planhat | qualified | unqualified | unqualified |
+| Rad Security | qualified | qualified | unqualified |
+| Rencore | qualified | qualified | unqualified |
+| RentRedi | unqualified | qualified | qualified |
+| Revv | qualified | qualified | unqualified |
+| Right-Hand Cybersecurity | qualified | qualified | unqualified |
+| RocketReach.co | unqualified | qualified | qualified |
+| Runway Financial | qualified | unqualified | qualified |
+| SGNL.AI | qualified | unqualified | qualified |
+| Savant Labs | qualified | qualified | unqualified |
+| Searchlight | qualified | unqualified | qualified |
 | SecurityPal | unqualified | unqualified | qualified |
-| Rattle | unqualified | unqualified | qualified |
-| Zonos | unqualified | unqualified | qualified |
+| Sequel.io | unqualified | unqualified | qualified |
+| SquareX | unqualified | qualified | qualified |
+| Subskribe | unqualified | unqualified | unqualified |
+| Sybill AI | unqualified | unqualified | qualified |
+| The Public Health Company | unqualified | unqualified | qualified |
+| Traefik Labs | qualified | qualified | unqualified |
+| TurinTech AI | unqualified | qualified | unqualified |
+| Unframe | unqualified | unqualified | qualified |
+| Verisoul | qualified | qualified | unqualified |
+| Vermeer | qualified | qualified | unqualified |
+| WhyLabs | unqualified | qualified | qualified |
+| Xata.io | unqualified | unqualified | qualified |
+| Zonos | qualified | unqualified | qualified |
+| nexos.ai | unqualified | qualified | qualified |
 
 #### 3. Consumption
 
